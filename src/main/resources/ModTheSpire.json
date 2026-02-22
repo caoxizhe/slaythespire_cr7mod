@@ -1,0 +1,10 @@
+{
+  "modid": "CR7Mod",
+  "name": "C罗mod",
+  "author_list": ["曹希哲"],
+  "description": "基于著名足球运动员克里斯蒂亚诺·罗纳尔多的波澜壮阔的职业生涯，有感而发创作的mod。",
+  "version": "0.0.1",
+  "sts_version": "1-18-2026",
+  "mts_version": "3.30.3",
+  "dependencies": ["basemod"]
+}

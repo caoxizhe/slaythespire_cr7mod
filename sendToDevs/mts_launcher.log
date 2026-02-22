@@ -1,0 +1,830 @@
+一月 18, 2026 4:58:36 下午 com.megacrit.mtslauncher.MtsFinder writeSteamAppIDFile
+详细: The file 'steam_appid.txt' exists. Not creating it...
+一月 18, 2026 4:58:37 下午 com.megacrit.mtslauncher.MtsFinder findModLauncher
+信息: ModTheSpire appears to be installed.
+一月 18, 2026 4:58:37 下午 com.megacrit.mtslauncher.Main main
+信息: Executing jar from: W:\SteamLibrary\steamapps\workshop\content\646570\1605060445\ModTheSpire.jar
+一月 18, 2026 4:58:37 下午 com.megacrit.mtslauncher.Main main
+严重: java.io.IOException: Cannot run program "jre/bin/java": CreateProcess error=2, 系统找不到指定的文件。
+java.io.IOException: Cannot run program "jre/bin/java": CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.megacrit.mtslauncher.Main.main(Main.java:44)
+Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:464)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:139)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 1 more
+
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit <clinit>
+详细: Win version: 0x4a65000a = 1248133130 (Windows Vista)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.properties.version=3
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.frame.captionFont=java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.frame.captionFont.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.frame.captionHeight=22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.frame.captionButtonWidth=36
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.frame.captionButtonHeight=22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.frame.smallCaptionFont=java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.frame.smallCaptionFont.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.frame.smallCaptionHeight=22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.frame.smallCaptionButtonWidth=22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.frame.smallCaptionButtonHeight=22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.frame.sizingBorderWidth=1
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.menu.font=java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.menu.font.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.menu.height=19
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.menu.buttonWidth=19
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.scrollbar.width=17
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.scrollbar.height=17
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.status.font=java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.status.font.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.tooltip.font=java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.tooltip.font.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.messagebox.font=java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.messagebox.font.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.icon.hspacing=75
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.icon.vspacing=75
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.icon.titleWrappingOn=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.icon.font=java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.icon.font.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.activeCaptionGradientColor=java.awt.Color[r=185,g=209,b=234]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.inactiveCaptionGradientColor=java.awt.Color[r=215,g=228,b=242]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.item.hotTrackedColor=java.awt.Color[r=0,g=102,b=204]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.3d.darkShadowColor=java.awt.Color[r=105,g=105,b=105]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.3d.backgroundColor=java.awt.Color[r=240,g=240,b=240]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.3d.highlightColor=java.awt.Color[r=255,g=255,b=255]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.3d.lightColor=java.awt.Color[r=227,g=227,b=227]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.3d.shadowColor=java.awt.Color[r=160,g=160,b=160]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.button.textColor=java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.desktop.backgroundColor=java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.activeCaptionColor=java.awt.Color[r=153,g=180,b=209]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.activeBorderColor=java.awt.Color[r=180,g=180,b=180]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.color=java.awt.Color[r=100,g=100,b=100]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.backgroundColor=java.awt.Color[r=255,g=255,b=255]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.captionTextColor=java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.inactiveBorderColor=java.awt.Color[r=244,g=247,b=252]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.inactiveCaptionColor=java.awt.Color[r=191,g=205,b=219]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.inactiveCaptionTextColor=java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.frame.textColor=java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.item.highlightColor=java.awt.Color[r=0,g=120,b=215]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.item.highlightTextColor=java.awt.Color[r=255,g=255,b=255]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.mdi.backgroundColor=java.awt.Color[r=171,g=171,b=171]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.menu.backgroundColor=java.awt.Color[r=240,g=240,b=240]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.menu.textColor=java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.menubar.backgroundColor=java.awt.Color[r=240,g=240,b=240]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.scrollbar.backgroundColor=java.awt.Color[r=200,g=200,b=200]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.text.grayedTextColor=java.awt.Color[r=109,g=109,b=109]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.tooltip.backgroundColor=java.awt.Color[r=255,g=255,b=225]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setColorProperty
+详细: win.tooltip.textColor=java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.caret.width=1
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.frame.fullWindowDragsOn=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.text.fontSmoothingOn=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.text.fontSmoothingType=2
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.text.fontSmoothingContrast=1200
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.text.fontSmoothingOrientation=1
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.drag.width=4
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: win.drag.height=4
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: DnD.gestureMotionThreshold=2
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: awt.mouse.numButtons=5
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setIntegerProperty
+详细: awt.multiClickInterval=500
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: awt.dynamicLayoutSupported=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: awt.wheelMousePresent=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.frame.captionGradientsOn=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.item.hotTrackingOn=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.menu.keyboardCuesOn=false
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.highContrast.on=false
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: awt.file.showHiddenFiles=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: awt.file.showAttribCol=false
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.default=WinPlaySound(.Default)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.close=WinPlaySound(Close)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.maximize=WinPlaySound(Maximize)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.minimize=WinPlaySound(Minimize)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.menuCommand=WinPlaySound(MenuCommand)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.menuPopup=WinPlaySound(MenuPopup)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.open=WinPlaySound(Open)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.restoreDown=WinPlaySound(RestoreDown)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.restoreUp=WinPlaySound(RestoreUp)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.asterisk=WinPlaySound(SystemAsterisk)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.exclamation=WinPlaySound(SystemExclamation)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.exit=WinPlaySound(SystemExit)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.hand=WinPlaySound(SystemHand)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.question=WinPlaySound(SystemQuestion)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setSoundProperty
+详细: win.sound.start=WinPlaySound(SystemStart)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.ansiFixed.font=java.awt.Font[family=Monospaced,name=Monospaced,style=plain,size=13]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.ansiFixed.font.height=13
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.ansiVar.font=java.awt.Font[family=Microsoft Sans Serif,name=Microsoft Sans Serif,style=plain,size=11]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.ansiVar.font.height=11
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.deviceDefault.font=java.awt.Font[family=Dialog,name=Dialog,style=bold,size=13]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.deviceDefault.font.height=13
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.defaultGUI.font=java.awt.Font[family=宋体,name=宋体,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.defaultGUI.font.height=12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.oemFixed.font=java.awt.Font[family=Dialog,name=Dialog,style=plain,size=16]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.oemFixed.font.height=16
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.system.font=java.awt.Font[family=Dialog,name=Dialog,style=bold,size=16]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.system.font.height=16
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.systemFixed.font=java.awt.Font[family=Dialog,name=Fixedsys,style=plain,size=16]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setFontProperty
+详细: win.systemFixed.font.height=16
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setBooleanProperty
+详细: win.xpstyle.themeActive=true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setStringProperty
+详细: win.xpstyle.dllName=C:\Windows\resources\themes\Aero\Aero.msstyles
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setStringProperty
+详细: win.xpstyle.sizeName=NormalSize
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WDesktopProperties setStringProperty
+详细: win.xpstyle.colorName=NormalColor
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.systemFixed.font to java.awt.Font[family=Dialog,name=Fixedsys,style=plain,size=16]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.inactiveBorderColor to java.awt.Color[r=244,g=247,b=252]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.captionGradientsOn to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.messagebox.font to java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.smallCaptionButtonHeight to 22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.inactiveCaptionGradientColor to java.awt.Color[r=215,g=228,b=242]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.ansiFixed.font to java.awt.Font[family=Monospaced,name=Monospaced,style=plain,size=13]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.xpstyle.themeActive to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.xpstyle.dllName to C:\Windows\resources\themes\Aero\Aero.msstyles
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.3d.highlightColor to java.awt.Color[r=255,g=255,b=255]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.smallCaptionFont to java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed awt.dynamicLayoutSupported to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.captionFont.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.button.textColor to java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.asterisk to WinPlaySound(SystemAsterisk)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.restoreUp to WinPlaySound(RestoreUp)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.sizingBorderWidth to 1
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.smallCaptionHeight to 22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.open to WinPlaySound(Open)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.drag.width to 4
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.item.highlightColor to java.awt.Color[r=0,g=120,b=215]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.inactiveCaptionColor to java.awt.Color[r=191,g=205,b=219]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.captionButtonWidth to 36
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.activeCaptionColor to java.awt.Color[r=153,g=180,b=209]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed awt.wheelMousePresent to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.maximize to WinPlaySound(Maximize)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed DnD.gestureMotionThreshold to 2
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.mdi.backgroundColor to java.awt.Color[r=171,g=171,b=171]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.menuCommand to WinPlaySound(MenuCommand)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menubar.backgroundColor to java.awt.Color[r=240,g=240,b=240]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.drag.height to 4
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.oemFixed.font.height to 16
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.scrollbar.height to 17
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.color to java.awt.Color[r=100,g=100,b=100]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.scrollbar.width to 17
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.textColor to java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.3d.lightColor to java.awt.Color[r=227,g=227,b=227]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.hand to WinPlaySound(SystemHand)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.properties.version to 3
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.deviceDefault.font.height to 13
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.system.font to java.awt.Font[family=Dialog,name=Dialog,style=bold,size=16]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.icon.vspacing to 75
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.3d.darkShadowColor to java.awt.Color[r=105,g=105,b=105]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menu.font to java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.start to WinPlaySound(SystemStart)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.xpstyle.sizeName to NormalSize
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.smallCaptionFont.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.activeCaptionGradientColor to java.awt.Color[r=185,g=209,b=234]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.exclamation to WinPlaySound(SystemExclamation)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.item.hotTrackedColor to java.awt.Color[r=0,g=102,b=204]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.scrollbar.backgroundColor to java.awt.Color[r=200,g=200,b=200]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.defaultGUI.font.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menu.backgroundColor to java.awt.Color[r=240,g=240,b=240]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.text.fontSmoothingType to 2
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.tooltip.font to java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menu.font.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menu.keyboardCuesOn to false
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.ansiVar.font to java.awt.Font[family=Microsoft Sans Serif,name=Microsoft Sans Serif,style=plain,size=11]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.3d.shadowColor to java.awt.Color[r=160,g=160,b=160]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed awt.font.desktophints to {Text-specific antialiasing enable key=LCD HRGB antialiasing text mode, Text-specific LCD contrast key=120}
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed awt.file.showHiddenFiles to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.ansiFixed.font.height to 13
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed DnD.Autoscroll.cursorHysteresis to null
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.tooltip.textColor to java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.ansiVar.font.height to 11
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.fullWindowDragsOn to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.minimize to WinPlaySound(Minimize)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.restoreDown to WinPlaySound(RestoreDown)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.close to WinPlaySound(Close)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.status.font.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.3d.backgroundColor to java.awt.Color[r=240,g=240,b=240]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.smallCaptionButtonWidth to 22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.icon.font to java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menu.buttonWidth to 19
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.deviceDefault.font to java.awt.Font[family=Dialog,name=Dialog,style=bold,size=13]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.text.fontSmoothingOn to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.oemFixed.font to java.awt.Font[family=Dialog,name=Dialog,style=plain,size=16]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.menuPopup to WinPlaySound(MenuPopup)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.system.font.height to 16
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.captionButtonHeight to 22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.captionFont to java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.xpstyle.colorName to NormalColor
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.inactiveCaptionTextColor to java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.highContrast.on to false
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.activeBorderColor to java.awt.Color[r=180,g=180,b=180]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.item.hotTrackingOn to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.question to WinPlaySound(SystemQuestion)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.exit to WinPlaySound(SystemExit)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.propNames to [Ljava.lang.String;@2c34f934
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.text.fontSmoothingContrast to 1200
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.icon.titleWrappingOn to true
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed awt.file.showAttribCol to false
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.backgroundColor to java.awt.Color[r=255,g=255,b=255]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.tooltip.font.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.captionHeight to 22
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.defaultGUI.font to java.awt.Font[family=宋体,name=宋体,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.systemFixed.font.height to 16
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.caret.width to 1
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.text.fontSmoothingOrientation to 1
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.icon.font.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.text.grayedTextColor to java.awt.Color[r=109,g=109,b=109]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menu.textColor to java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed awt.mouse.numButtons to 5
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.tooltip.backgroundColor to java.awt.Color[r=255,g=255,b=225]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.status.font to java.awt.Font[family=Microsoft YaHei UI,name=Microsoft YaHei UI,style=plain,size=12]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed awt.multiClickInterval to 500
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.menu.height to 19
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.messagebox.font.height to 12
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.frame.captionTextColor to java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.icon.hspacing to 75
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.sound.default to WinPlaySound(.Default)
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.item.highlightTextColor to java.awt.Color[r=255,g=255,b=255]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WToolkit updateProperties
+较详细: changed win.desktop.backgroundColor to java.awt.Color[r=0,g=0,b=0]
+一月 18, 2026 4:58:37 下午 sun.awt.SunDisplayChanger add
+较详细: Adding listener: javax.swing.RepaintManager$DisplayChangedHandler@7c417213
+一月 18, 2026 4:58:37 下午 sun.awt.SunDisplayChanger add
+较详细: Adding listener: D3DGraphicsConfig[dev=D3DGraphicsDevice[screen=0],pixfmt=0]
+一月 18, 2026 4:58:37 下午 java.awt.Window setGraphicsConfiguration
+较详细: + Window.setGraphicsConfiguration(): new GC is 
++ D3DGraphicsConfig[dev=D3DGraphicsDevice[screen=0],pixfmt=0]
++ this is javax.swing.SwingUtilities$SharedOwnerFrame[frame0,0,0,0x0,invalid,hidden,normal]
+一月 18, 2026 4:58:37 下午 java.awt.Window setGraphicsConfiguration
+较详细: + Window.setGraphicsConfiguration(): new GC is 
++ D3DGraphicsConfig[dev=D3DGraphicsDevice[screen=0],pixfmt=0]
++ this is javax.swing.JDialog[dialog0,0,0,0x0,invalid,hidden,null,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=,rootPaneCheckingEnabled=false]
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JPanel[null.glassPane,0,0,0x0,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight=false
+一月 18, 2026 4:58:37 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JPanel[null.glassPane,0,0,0x0,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight = false
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[null.glassPane,0,0,0x0,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; containing window is null
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[null.glassPane,0,0,0x0,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]; containing window is null
+一月 18, 2026 4:58:37 下午 sun.awt.SunDisplayChanger add
+较详细: Adding listener: sun.awt.windows.WFramePeer[javax.swing.SwingUtilities$SharedOwnerFrame[frame0,0,0,136x39,invalid,hidden,layout=java.awt.BorderLayout,title=,resizable,normal]]
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.SwingUtilities$SharedOwnerFrame[frame0,0,0,136x39,invalid,hidden,layout=java.awt.BorderLayout,title=,resizable,normal]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.SwingUtilities$SharedOwnerFrame[frame0,0,0,136x39,invalid,hidden,layout=java.awt.BorderLayout,title=,resizable,normal]; has h/w descendants = false; has l/w descendants = false; disposing = false
+一月 18, 2026 4:58:37 下午 sun.awt.SunDisplayChanger add
+较详细: Adding listener: sun.awt.windows.WDialogPeer[javax.swing.JDialog[dialog0,0,0,136x39,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,0x0,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JDialog[dialog0,0,0,136x39,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,0x0,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,0,0,136x39,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,0x0,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = false; disposing = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JRootPane[,0,0,0x0,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JRootPane[,0,0,0x0,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JPanel[null.glassPane,0,0,0x0,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[null.glassPane,0,0,0x0,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JPanel[null.contentPane,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,0,0,136x39,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,0,0,0x0,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JOptionPane[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JOptionPane[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JPanel[,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,0x0,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,0x0,invalid,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,0x0,invalid,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JLabel[OptionPane.label,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JLabel[OptionPane.label,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,0,0,0x0,invalid,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,0,0,0x0,invalid,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JButton[OptionPane.button,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JButton[OptionPane.button,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,428x90,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,428x90,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JPanel[null.glassPane,0,0,428x90,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[null.glassPane,0,0,428x90,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JPanel[null.contentPane,0,0,428x90,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,0,0,444x129,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JPanel[null.glassPane,0,0,428x90,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[null.glassPane,0,0,428x90,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JOptionPane[,0,0,428x90,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JOptionPane[,0,0,428x90,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JPanel[,10,10,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[,10,10,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,10,43,408x34,invalid,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,10,43,408x34,invalid,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,408x33,invalid,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,408x33,invalid,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JLabel[OptionPane.label,0,6,408x18,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JLabel[OptionPane.label,0,6,408x18,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JLabel[OptionPane.label,0,6,408x18,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JLabel[OptionPane.label,0,6,408x18,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,408x33,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,408x33,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,408x33,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,408x33,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JPanel[,10,10,408x33,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[,10,10,408x33,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnReshaping
+详细: this = javax.swing.JButton[OptionPane.button,180,6,48x28,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JButton[OptionPane.button,180,6,48x28,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,10,43,408x34,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,10,43,408x34,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JOptionPane[,0,0,428x90,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JOptionPane[,0,0,428x90,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JPanel[null.contentPane,0,0,428x90,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,0,0,444x129,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,428x90,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,428x90,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: this = javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]; areBoundsValid = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JDialog[dialog0,0,0,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,0,0,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JDialog[dialog0,0,0,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,0,0,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnValidating
+详细: this = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 4:58:37 下午 java.awt.DefaultKeyboardFocusManager enqueueKeyEvents
+较详细: Enqueue at 1768726717160 for javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 java.awt.Container mixOnShowing
+详细: this = javax.swing.JDialog[dialog0,738,456,444x129,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WWindowPeer updateGC
+较详细: Screen number: 0
+一月 18, 2026 4:58:37 下午 java.awt.Window setGraphicsConfiguration
+较详细: + Window.setGraphicsConfiguration(): new GC is 
++ D3DGraphicsConfig[dev=D3DGraphicsDevice[screen=0],pixfmt=0]
++ this is javax.swing.JDialog[dialog0,738,456,444x129,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> sun.awt.TimedWindowEvent[WINDOW_GAINED_FOCUS,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 4:58:37 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: sun.awt.TimedWindowEvent[WINDOW_GAINED_FOCUS,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 4:58:37 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 4:58:37 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: java.awt.event.WindowEvent[WINDOW_ACTIVATED,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 4:58:37 下午 java.awt.KeyboardFocusManager setGlobalActiveWindow
+较详细: Setting global active window to javax.swing.JDialog[dialog0,738,456,444x129,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], old active null
+一月 18, 2026 4:58:37 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+较详细: tempLost null, toFocus javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 java.awt.KeyboardFocusManager shouldNativelyFocusHeavyweight
+较详细: SNFH for javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true] in javax.swing.JDialog[dialog0,738,456,444x129,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.WaitDispatchSupport enter
+详细: enter(): blockingEDT=false, blockingCT=false
+一月 18, 2026 4:58:37 下午 java.awt.DefaultKeyboardFocusManager enqueueKeyEvents
+较详细: Enqueue at 1768726717160 for javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WComponentPeer requestFocus
+较详细: Proceeding with request to javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true] in javax.swing.JDialog[dialog0,738,456,444x129,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WComponentPeer requestFocus
+较详细: Requested window focus: true
+一月 18, 2026 4:58:37 下午 sun.awt.KeyboardFocusManagerPeerImpl deliverFocus
+较详细: Posting focus event: java.awt.FocusEvent[FOCUS_GAINED,permanent,opposite=null,cause=ACTIVATION] on javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 java.awt.KeyboardFocusManager shouldNativelyFocusHeavyweight
+较详细: SNFH for javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true] in javax.swing.JDialog[dialog0,738,456,444x129,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 4:58:37 下午 java.awt.WaitDispatchSupport$2 run
+详细: Starting a new event pump
+一月 18, 2026 4:58:37 下午 sun.awt.SunGraphicsCallback runComponents
+较详细: x = 8, y = 31, width = 428, height = 90
+一月 18, 2026 4:58:37 下午 sun.awt.SunDisplayChanger add
+较详细: Adding listener: sun.java2d.d3d.D3DVolatileSurfaceManager@3ad272bb
+一月 18, 2026 4:58:37 下午 sun.awt.SunDisplayChanger add
+较详细: Adding listener: sun.java2d.d3d.D3DVolatileSurfaceManager@6e4e000e
+一月 18, 2026 4:58:37 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 4:58:37 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: java.awt.event.WindowEvent[WINDOW_OPENED,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 4:58:37 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> java.awt.FocusEvent[FOCUS_GAINED,permanent,opposite=null,cause=ACTIVATION] on javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: java.awt.FocusEvent[FOCUS_GAINED,permanent,opposite=null,cause=ACTIVATION] on javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 sun.awt.im.InputContext activateInputMethod
+详细: Current client component javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 sun.awt.windows.WComponentPeer handleJavaFocusEvent
+较详细: java.awt.FocusEvent[FOCUS_GAINED,permanent,opposite=null,cause=ACTIVATION] on javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 4:58:37 下午 sun.awt.SunGraphicsCallback runComponents
+较详细: x = 0, y = 0, width = 444, height = 129
+一月 18, 2026 5:00:19 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; isLightweight=false
+一月 18, 2026 5:00:19 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; isLightweight = false
+一月 18, 2026 5:00:19 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = false
+一月 18, 2026 5:00:19 下午 java.awt.Component transferFocus
+较详细: clearOnFailure = true
+一月 18, 2026 5:00:19 下午 java.awt.Component getNextFocusCandidate
+较详细: comp = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], root = null
+一月 18, 2026 5:00:19 下午 java.awt.Component getNextFocusCandidate
+较详细: Focus transfer candidate: null
+一月 18, 2026 5:00:19 下午 java.awt.Component transferFocus
+较详细: clear global focus owner
+一月 18, 2026 5:00:19 下午 sun.awt.KeyboardFocusManagerPeerImpl clearGlobalFocusOwner
+详细: Clearing global focus owner javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 5:00:19 下午 java.awt.Component transferFocus
+较详细: returning result: false
+一月 18, 2026 5:00:20 下午 java.awt.WaitDispatchSupport exit
+详细: exit(): blockingEDT=true, blockingCT=true
+一月 18, 2026 5:00:20 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> java.awt.FocusEvent[FOCUS_LOST,permanent,opposite=null,cause=CLEAR_GLOBAL_FOCUS_OWNER] on javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 5:00:20 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: java.awt.FocusEvent[FOCUS_LOST,permanent,opposite=null,cause=CLEAR_GLOBAL_FOCUS_OWNER] on javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 5:00:20 下午 sun.awt.windows.WComponentPeer handleJavaFocusEvent
+较详细: java.awt.FocusEvent[FOCUS_LOST,permanent,opposite=null,cause=CLEAR_GLOBAL_FOCUS_OWNER] on javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 5:00:20 下午 java.awt.WaitDispatchSupport$5 run
+详细: Wake up EDT
+一月 18, 2026 5:00:20 下午 java.awt.WaitDispatchSupport$5 run
+详细: Wake up EDT done
+一月 18, 2026 5:00:20 下午 java.awt.WaitDispatchSupport enter
+详细: waitDone false false
+一月 18, 2026 5:00:20 下午 java.awt.DefaultKeyboardFocusManager dequeueKeyEvents
+较详细: Dequeue at 1768726717160 for javax.swing.JButton[OptionPane.button,180,6,48x28,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]
+一月 18, 2026 5:00:20 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> sun.awt.TimedWindowEvent[WINDOW_LOST_FOCUS,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 5:00:20 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: sun.awt.TimedWindowEvent[WINDOW_LOST_FOCUS,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 5:00:20 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: Active javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], Current focused javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true], losing focus javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true] opposite null
+一月 18, 2026 5:00:20 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> java.awt.event.WindowEvent[WINDOW_DEACTIVATED,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 5:00:20 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: java.awt.event.WindowEvent[WINDOW_DEACTIVATED,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 5:00:20 下午 java.awt.KeyboardFocusManager setGlobalActiveWindow
+较详细: Setting global active window to null, old active javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JButton[OptionPane.button,180,6,48x28,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JButton[OptionPane.button,180,6,48x28,invalid,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@402bba4f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=java.awt.Insets[top=2,left=8,bottom=2,right=8],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=确定,defaultCapable=true]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,10,43,408x34,invalid,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JPanel[OptionPane.buttonArea,10,43,408x34,invalid,layout=javax.swing.plaf.basic.BasicOptionPaneUI$ButtonAreaLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@6e171cd7,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JLabel[OptionPane.label,0,6,408x18,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JLabel[OptionPane.label,0,6,408x18,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,horizontalAlignment=LEADING,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=mts-launcher must be launched in the same directory as desktop-1.0.jar,verticalAlignment=CENTER,verticalTextPosition=CENTER]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,408x33,invalid,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JPanel[OptionPane.body,0,0,408x33,invalid,layout=java.awt.GridBagLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JPanel[OptionPane.realBody,0,0,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JPanel[,10,10,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JPanel[,10,10,408x33,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@498d318c,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JOptionPane[,0,0,428x90,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JOptionPane[,0,0,428x90,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.BorderUIResource$EmptyBorderUIResource@40ef3420,flags=392,maximumSize=,minimumSize=,preferredSize=,icon=,initialValue=,message=mts-launcher must be launched in the same directory as desktop-1.0.jar,messageType=PLAIN_MESSAGE,optionType=DEFAULT_OPTION,wantsInput=false]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JPanel[null.contentPane,0,0,428x90,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JPanel[null.contentPane,0,0,428x90,invalid,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,428x90,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JLayeredPane[null.layeredPane,0,0,428x90,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,optimizedDrawingPossible=true]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JPanel[null.glassPane,0,0,428x90,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JPanel[null.glassPane,0,0,428x90,invalid,hidden,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777217,maximumSize=,minimumSize=,preferredSize=]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = true; disposing = true
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]; isLightweight=true
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=]; isLightweight = true
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = false; disposing = true
+一月 18, 2026 5:00:20 下午 sun.awt.SunDisplayChanger remove
+较详细: Removing listener: sun.awt.windows.WDialogPeer[javax.swing.JDialog[dialog0,738,456,444x129,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]]
+一月 18, 2026 5:00:20 下午 java.awt.Container mixOnHiding
+详细: this = javax.swing.JDialog[dialog0,738,456,444x129,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; isLightweight=false
+一月 18, 2026 5:00:20 下午 java.awt.Component mixOnHiding
+详细: this = javax.swing.JDialog[dialog0,738,456,444x129,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; isLightweight = false
+一月 18, 2026 5:00:20 下午 java.awt.Component isMixingNeeded
+详细: containing window = javax.swing.JDialog[dialog0,738,456,444x129,invalid,hidden,layout=java.awt.BorderLayout,APPLICATION_MODAL,title=Error,defaultCloseOperation=HIDE_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,428x90,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]; has h/w descendants = false; has l/w descendants = false; disposing = true
+一月 18, 2026 5:00:20 下午 com.megacrit.mtslauncher.Main main
+严重: The ModTheSpire process was not launched with desktop-1.0.jar in its current working directory! cwd=C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod
+一月 18, 2026 5:00:20 下午 java.awt.KeyboardFocusManager retargetFocusEvent
+较详细: >>> java.awt.event.WindowEvent[WINDOW_CLOSED,opposite=null,oldState=0,newState=0] on dialog0
+一月 18, 2026 5:00:20 下午 com.megacrit.mtslauncher.Main main
+信息: Successfully launched Mod the Spire! Exiting cleanly.
+一月 18, 2026 5:00:20 下午 java.awt.DefaultKeyboardFocusManager dispatchEvent
+详细: java.awt.event.WindowEvent[WINDOW_CLOSED,opposite=null,oldState=0,newState=0] on dialog0

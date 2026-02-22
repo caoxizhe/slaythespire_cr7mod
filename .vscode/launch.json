@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug Slay the Spire",
+      "request": "launch",
+      "mainClass": "com.evacipated.cardcrawl.modthespire.ModTheSpire",
+      "args": ["--mods", "basemod", "CR7Mod"],
+      "cwd": "W:\\SteamLibrary\\steamapps\\common\\SlayTheSpire",
+      "javaExec": "C:\\Program Files\\Java\\jdk-1.8\\bin\\java.exe",
+      "preLaunchTask": "maven-package",
+      "classPaths": [
+        "W:\\SteamLibrary\\steamapps\\workshop\\content\\646570\\1605060445\\ModTheSpire.jar",
+        "W:\\SteamLibrary\\steamapps\\common\\SlayTheSpire\\desktop-1.0.jar"
+      ]
+    }
+  ]
+}

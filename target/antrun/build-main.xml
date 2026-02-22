@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="target/cr7-mod.jar" tofile="W:/SteamLibrary/steamapps/common/SlayTheSpire/mods/cr7-mod.jar"/>
+</target>
+</project>

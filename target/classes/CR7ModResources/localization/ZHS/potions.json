@@ -1,0 +1,20 @@
+{
+  "CR7Mod:BallonDorPotion": {
+    "NAME": "金球药水",
+    "DESCRIPTIONS": [
+      "将两张 #y金球 加入你的手牌。"
+    ]
+  },
+  "CR7Mod:CocaColaPotion": {
+    "NAME": "可口可乐",
+    "DESCRIPTIONS": [
+      "获得 20 点 #y粉丝 。"
+    ]
+  },
+  "CR7Mod:CharacterPotion": {
+    "NAME": "人物药水",
+    "DESCRIPTIONS": [
+      "从 3 张 #y人物 中选择 1 张加入手牌。"
+    ]
+  }
+}

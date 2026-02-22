@@ -1,0 +1,59 @@
+{
+  "CR7Mod:LuoJieJing": {
+    "NAME": "罗结晶",
+    "FLAVOR": "黄昏见证虔诚的信徒，他们永远是球王最忠诚的后盾。",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，获得 #b%d 点 #y粉丝 。"
+    ]
+  },
+  "CR7Mod:Bacteria": {
+    "NAME": "肉毒杆菌",
+    "FLAVOR": "可以用来美容，但罗哥似乎还有别的用处。",
+    "DESCRIPTIONS": [
+      "失去 #b%d 点最大生命，每回合额外获得 [E] 。"
+    ]
+  },
+  "CR7Mod:GoldShoe": {
+    "NAME": "金靴",
+    "FLAVOR": "无数进球的见证。",
+    "DESCRIPTIONS": [
+      "每次洗牌后，抽 #b%d 张牌。"
+    ]
+  },
+  "CR7Mod:Contract": {
+    "NAME": "合同",
+    "FLAVOR": "签了合同，就要上场。",
+    "DESCRIPTIONS": [
+      "在战斗中每失去 1 点生命，获得 #b%d 金币。"
+    ]
+  },
+  "CR7Mod:ShinGuard": {
+    "NAME": "护腿板",
+    "FLAVOR": "保护腿的板",
+    "DESCRIPTIONS": [
+      "生命值低于你当前粉丝数的敌人无法对你造成伤害。"
+    ]
+  },
+  "CR7Mod:Whistle": {
+    "NAME": "黑哨",
+    "FLAVOR": "正义真的必胜吗？",
+    "DESCRIPTIONS": [
+      "你打出红牌所需的费用变为 0 。"
+    ]
+  },
+  "CR7Mod:Tichun": {
+    "NAME": "提纯结晶",
+    "FLAVOR": "孝子与黑子本是一体两面。",
+    "DESCRIPTIONS": [
+      "每场战斗开始时，获得 #b%d 点 #y粉丝 。"
+    ]
+  },
+  "CR7Mod:Captain": {
+    "NAME": "队长袖标",
+    "FLAVOR": "伟大的葡萄牙船长。",
+    "DESCRIPTIONS": [
+      "每回合开始时，随机将 #b1 张人物牌放入手牌。"
+    ]
+  }
+}
+

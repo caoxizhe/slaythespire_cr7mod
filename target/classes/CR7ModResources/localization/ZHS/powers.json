@@ -1,0 +1,99 @@
+{
+  "CR7Mod:Fans": {
+    "NAME": "粉丝",
+    "DESCRIPTIONS": [
+      "你拥有 {0} 点 #y粉丝 。"
+    ]
+  }
+  ,
+  "CR7Mod:TempFans": {
+    "NAME": "临时粉丝",
+    "DESCRIPTIONS": [
+      "本回合结束时失去所有 #y粉丝 。"
+    ]
+  }
+    ,
+    "CR7Mod:StrikeInstinctPower": {
+      "NAME": "射手本能",
+      "DESCRIPTIONS": [
+        "每当你打出攻击牌，目标失去 %d 点力量。"
+      ]
+    }
+    ,
+    "CR7Mod:MadridistaStancePower": {
+      "NAME": "金边形态",
+      "DESCRIPTIONS": [
+        "在你的回合开始时，抽取额外的 %d 张牌；随后将手牌中随机的 %d 张卡的费用设为 0。"
+      ]
+    }
+    ,
+    "CR7Mod:RedDevilPower": {
+      "NAME": "红魔形态",
+      "DESCRIPTIONS": [
+        "每回合结束时，对所有敌人造成等于你当前 #y粉丝 数量的伤害。"
+      ]
+    }
+    ,
+    "CR7Mod:DribblePower": {
+      "NAME": "旋风盘带",
+      "DESCRIPTIONS": [
+        "回合开始时，获得等于你当前 #y粉丝 数量的格挡，并失去 [E] 。"
+      ]
+    }
+    ,
+    "CR7Mod:BianconeriGloryPower": {
+      "NAME": "斑马形态",
+      "DESCRIPTIONS": [
+        "每打出一张攻击牌，回复 %d 点生命。"
+      ]
+    }
+    ,
+    "CR7Mod:VolleyShootPower": {
+      "NAME": "凌空射门",
+      "DESCRIPTIONS": [
+        "本回合中每当你获得粉丝时触发，对随机一名敌人造成 %d 点伤害。"
+      ]
+    }
+    ,
+    "CR7Mod:BloodSuckPower": {
+      "NAME": "吸血",
+      "DESCRIPTIONS": [
+        "每当你打出一张人物牌，获得 %d 点 [E]。"
+      ]
+    }
+    ,
+    "CR7Mod:RonaldoRushdownPower": {
+      "NAME": "猛罗下山",
+      "DESCRIPTIONS": [
+        "每当你获得 #y粉丝 ，抽 %d 张牌。"
+      ]
+    }
+    ,
+    "CR7Mod:GOATPower": {
+      "NAME": "球王",
+      "DESCRIPTIONS": [
+        "每回合开始时，将一张金球加入手牌。"
+      ]
+    }
+    ,
+    "CR7Mod:DaikuanPower": {
+      "NAME": "贷款冠军",
+      "DESCRIPTIONS": [
+        "每回合开始时随机获得 1 张稀有卡且该回合费用为 0 。"
+      ]
+    }
+    ,
+    "CR7Mod:CirclePower": {
+      "NAME": "回旋镖",
+      "DESCRIPTIONS": [
+        "本回合下 %d 张攻击牌打出 2 次。"
+      ]
+    }
+    ,
+    "CR7Mod:UnyieldPower": {
+      "NAME": "不屈",
+      "DESCRIPTIONS": [
+        "每受到一次伤害，获得 %d 点粉丝。"
+      ]
+    }
+}

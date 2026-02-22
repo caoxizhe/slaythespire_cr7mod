@@ -1,0 +1,392 @@
+{
+  "CR7Mod:Shoot": {
+    "NAME": "射门",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  }
+  ,
+  "CR7Mod:Duel": {
+    "NAME": "对抗",
+    "DESCRIPTION": "获得 !B! 点 cr7mod:格挡 。"
+  }
+  ,
+  "CR7Mod:Header": {
+    "NAME": "头球",
+    "DESCRIPTION": "造成 !D! 点伤害，获得 !M! 点 cr7mod:粉丝 。"
+  }
+  ,
+  "CR7Mod:SpeedUp": {
+    "NAME": "瞬间加速",
+    "DESCRIPTION": "获得 !M! 点 cr7mod:敏捷 。获得 2 层 cr7mod:易伤 。 cr7mod:消耗 。"  
+  }
+  ,
+  "CR7Mod:Reign": {
+    "NAME": "君临",
+      "DESCRIPTION": "失去 5 点 cr7mod:粉丝 ，获得 !M! 点 cr7mod:力量 与 !M! 点 cr7mod:敏捷 。"
+  }
+  ,
+  "CR7Mod:BulletHeader": {
+    "NAME": "炮弹头槌",
+    "DESCRIPTION": "对所有敌人造成 !D! 点无视 cr7mod:格挡 的伤害。获得 !M! 点 cr7mod:粉丝 和 1 点 cr7mod:力量 。"
+  }
+  ,
+  "CR7Mod:SilenceCampNou": {
+    "NAME": "诺坎普请安静!",
+    "DESCRIPTION": "对所有敌人施加 !M! 层 cr7mod:虚弱 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:DragonCurve": {
+    "NAME": "游龙",
+    "DESCRIPTION": "获得等同于已损失生命值的 cr7mod:粉丝 。对目标造成等同于当前 cr7mod:粉丝 数量的伤害。"
+  }
+  ,
+  "CR7Mod:BicycleKick": {
+    "NAME": "倒挂金钩",
+    "DESCRIPTION": "造成 !D! 点伤害并给予 !M! 层 cr7mod:易伤 。 获得 7 点 cr7mod:粉丝 。每有 7 点 cr7mod:粉丝 ，费用减少 1。"
+  }
+  ,
+  "CR7Mod:MadridistaStance": {
+    "NAME": "金边形态",
+    "DESCRIPTION": "每回合开始时多摸 !M! 张牌，并随机将手牌中最多 !M! 张费用不为 0 的卡设为 0。"
+  }
+  ,
+  "CR7Mod:ButterflyOverSea": {
+    "NAME": "蝴蝶飞过沧海",
+    "DESCRIPTION": "使你拥有的初始遗物的效果永久增强 1。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:Antony": {
+    "NAME": "圆神：安东尼",
+    "DESCRIPTION": " cr7mod:人物 。你的下X回合伤害翻倍。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": " cr7mod:人物 。你的下X+1回合伤害翻倍。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:HatTrick": {
+    "NAME": "帽子戏法",
+    "DESCRIPTION": "造成 !D! 点伤害 3 次。 获得 !M! 点 cr7mod:粉丝 。"
+  }
+  ,
+  "CR7Mod:Adversity": {
+    "NAME": "绝境",
+    "DESCRIPTION": "失去 7 点生命，获得 !M! 点 cr7mod:力量 。本回合当前手牌中所有攻击牌下一次打出费用变为 0。"
+  }
+  ,
+  "CR7Mod:Roar": {
+    "NAME": "怒吼",
+    "DESCRIPTION": "失去 4 点生命，获得 [E] 并摸 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "失去 4 点生命，获得 [E] [E] 并摸 !M! 张牌。"
+  }
+  ,
+  "CR7Mod:Ronalander": {
+    "NAME": "祖国罗",
+    "DESCRIPTION": "获得 !M! 点 cr7mod:粉丝 。本回合结束时失去所有 cr7mod:粉丝 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:ArabCup": {
+    "NAME": "小力神杯",
+    "DESCRIPTION": "失去 5 点 cr7mod:粉丝 ，抽 !M! 张牌。"
+  }
+  ,
+  "CR7Mod:WarriorSpirit": {
+    "NAME": "战斗精神",
+    "DESCRIPTION": "获得 !M! 层 cr7mod:人工制品 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:StrikeInstinct": {
+    "NAME": "射手本能",
+    "DESCRIPTION": "每当你打出攻击牌，目标永久失去 1 点 cr7mod:力量 。"
+  }
+  ,
+  "CR7Mod:RedDevil": {
+    "NAME": "红魔形态",
+    "DESCRIPTION": "每回合结束时，对所有敌人造成等于你当前 cr7mod:粉丝 数量的伤害。"
+  }
+  ,
+  "CR7Mod:Dribble": {
+    "NAME": "旋风盘带",
+    "DESCRIPTION": "每回合开始时，获得等于你当前 cr7mod:粉丝 数的 cr7mod:格挡 ，并失去 [E] 。"
+  }
+  ,
+  "CR7Mod:BianconeriGlory": {
+    "NAME": "斑马形态",
+    "DESCRIPTION": "每打出一张攻击牌，回复 !M! 点生命。"
+  }
+  ,
+  "CR7Mod:Penalty": {
+    "NAME": "十二码核爆",
+    "DESCRIPTION": "造成 !D! 点伤害。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:Backheel": {
+    "NAME": "脚跟绝技",
+    "DESCRIPTION": "获得 !B! 点格挡。每有 !M! 点 cr7mod:粉丝 ，获得 1 点 cr7mod:敏捷 。"
+  }
+  ,
+  "CR7Mod:RedCard": {
+    "NAME": "红牌",
+    "DESCRIPTION": "不能打出攻击牌。 cr7mod:保留 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:YellowCard": {
+    "NAME": "黄牌",
+    "DESCRIPTION": "不能打出。 cr7mod:保留 。当手牌中出现两张时，自动消耗并将一张 cr7mod:红牌 放入手牌。"
+  }
+  ,
+  "CR7Mod:Dive": {
+    "NAME": "假摔",
+    "DESCRIPTION": "成功时，将一张 cr7mod:十二码核爆 加入你的手牌。失败时，将一张 cr7mod:黄牌 加入手牌。每点 cr7mod:敏捷 提供 7% 成功率，每点 cr7mod:粉丝 提供 !M!% 成功率。"
+  }
+  ,
+  "CR7Mod:Offside": {
+    "NAME": "罗开二越",
+    "DESCRIPTION": "造成 !D! 点伤害 2 次。结束你的回合。"
+  }
+  ,  
+  "CR7Mod:SIUUUUU": {
+    "NAME": "SIUUUUU!",
+    "DESCRIPTION": "本场战斗升级卡组中的所有攻击牌。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:FishTank": {
+    "NAME": "鱼缸",
+    "DESCRIPTION": "获得 !M! 点 cr7mod:力量 。对所有敌人施加 !M! 层 cr7mod:易伤 。"
+  }
+  ,
+  "CR7Mod:BargeReferee": {
+    "NAME": "总裁",
+    "DESCRIPTION": "成功时，力量翻倍。失败时，将一张 cr7mod:黄牌 加入手牌。每点 cr7mod:粉丝 提供 !M!% 成功率。"
+  }
+  ,
+  "CR7Mod:VolleyShoot": {
+    "NAME": "凌空射门",
+    "DESCRIPTION": "造成 !D! 点伤害。本回合每次获得 cr7mod:粉丝 ，对一名随机敌人造成 !M! 点伤害。"
+  }
+  ,
+  "CR7Mod:UnbalancedShoot": {
+    "NAME": "无定形射门",
+    "DESCRIPTION": "造成 !D! 点伤害。额外造成等于本场战斗中获得的 cr7mod:粉丝 总数的伤害。"
+  }
+  ,
+  "CR7Mod:LowScream": {
+    "NAME": "掠地瞬击",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。获得等同于未被 cr7mod:格挡 伤害的 cr7mod:粉丝 数。"
+  }
+  ,
+  "CR7Mod:LuxembourgReaper": {
+    "NAME": "卢森堡死神",
+    "DESCRIPTION": "造成 !D! 点伤害 5 次。若用本卡 cr7mod:斩杀 ，获得 [E] [E] 并抽 1 张牌。"
+  }
+  ,
+  "CR7Mod:PublicHero": {
+    "NAME": "全民偶像",
+    "DESCRIPTION": "每有 7 点 cr7mod:粉丝 ，获得 [E]  。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": "每有 7 点 cr7mod:粉丝 ，获得 [E] 。 cr7mod:消耗 。 cr7mod:保留 。"
+  }
+  ,
+  "CR7Mod:AcrobaticShoot": {
+    "NAME": "杂技般射门",
+    "DESCRIPTION": "造成 !D! 点伤害。获得 1 点 cr7mod:敏捷 。"
+  }
+  ,
+  "CR7Mod:BananaShoot": {
+    "NAME": "弧线落叶射门",
+    "DESCRIPTION": "造成 !D! 点伤害。若拥有 12 点及以上 cr7mod:粉丝 ，则打出两次。获得 !M! 点 cr7mod:粉丝 。"
+  }
+  ,
+  "CR7Mod:HeavyShoot": {
+    "NAME": "重炮射门",
+    "DESCRIPTION": "造成 !D! 点伤害。若拥有 15 点及以上 cr7mod:粉丝 ，则额外造成 20 点伤害。获得 !M! 点 cr7mod:粉丝 。"
+  }
+  ,
+  "CR7Mod:CounterAttack": {
+    "NAME": "快速反击",
+    "DESCRIPTION": "交换你的 cr7mod:力量 和 cr7mod:敏捷 数值。抽 !M! 张牌。"
+  }
+  ,
+  "CR7Mod:HideBall": {
+    "NAME": "罗哪儿躲",
+    "DESCRIPTION": "失去 15 点 cr7mod:粉丝 ，获得 !M! 层 cr7mod:无实体 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:OneTouchShoot": {
+    "NAME": "不停球射门",
+    "DESCRIPTION": "造成 !D! 点伤害。给予 !M! 层 cr7mod:虚弱 与 !M! 层 cr7mod:易伤 。"
+  }
+  ,
+  "CR7Mod:FollowUp": {
+    "NAME": "补射",
+    "DESCRIPTION": "若你上一张打出的牌是攻击牌，本牌费用变为 0。造成 !D! 点伤害。"
+  }
+  ,
+  "CR7Mod:BestNo7": {
+    "NAME": "最佳7号",
+    "DESCRIPTION": "获得 !B! 点格挡。抽 !M! 张牌。若你的 cr7mod:粉丝 数为 7 的倍数，触发该效果 7 次。"
+  }
+  ,
+  "CR7Mod:Tackle": {
+    "NAME": "伸脚抢截",
+    "DESCRIPTION": "获得 !B! 点 cr7mod:格挡 。所有敌人本回合失去 !M! 点 cr7mod:力量 。"
+  }
+  ,
+  "CR7Mod:WillPower": {
+    "NAME": "百折不挠",
+    "DESCRIPTION": "造成 !D! 点伤害。一场战斗中每打出一次，本牌的伤害增加 !M! 点。"
+  }
+  ,
+  "CR7Mod:DoubleKing": {
+    "NAME": "王不见王",
+    "DESCRIPTION": "获得 !B! 点格挡。将 1 张 cr7mod:圆神：安东尼 加入你的手牌。"
+  }
+  ,
+  "CR7Mod:BloodSuck": {
+    "NAME": "吸血",
+    "DESCRIPTION": "每当你打出一张 cr7mod:人物 牌，获得 [E] 。"
+  }
+  ,
+  "CR7Mod:Mbappe": {
+    "NAME": "利刃：姆巴佩",
+    "DESCRIPTION": " cr7mod:人物 。获得 !M! 点 cr7mod:敏捷 。造成 !D! 点伤害 7 次。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:RonaldoRushdown": {
+    "NAME": "猛罗下山",
+    "DESCRIPTION": "每当你获得 cr7mod:粉丝 ，抽 !M! 张牌。"
+  }
+  ,
+  "CR7Mod:MyHero": {
+    "NAME": "罗我偶",
+    "DESCRIPTION": "获得 !M! 点 cr7mod:粉丝 。将 1 张 cr7mod:利刃：姆巴佩 加入你的手牌。"
+  }
+  ,
+  "CR7Mod:KnockOut": {
+    "NAME": "烈士暮年",
+    "DESCRIPTION": "获得 [E] [E] 。将 1 张 cr7mod:捕罗小队 加入你的手牌。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] [E] 。将 1 张 cr7mod:捕罗小队 加入你的手牌。"
+  }
+  ,
+  "CR7Mod:Morocco": {
+    "NAME": "捕罗小队",
+    "DESCRIPTION": "不能被打出。 cr7mod:虚无 。本回合你不能获得 cr7mod:粉丝 。"
+  }
+  ,
+  "CR7Mod:Ramos": {
+    "NAME": "磐石：拉莫斯",
+    "DESCRIPTION": " cr7mod:人物 。造成 !D! 点伤害。获得 !B! 点 cr7mod:格挡 。 cr7mod:消耗 。" 
+  }
+  ,
+  "CR7Mod:Bale": {
+    "NAME": "腾云：贝尔",
+    "DESCRIPTION": " cr7mod:人物 。获得 !M! 点 cr7mod:敏捷 。抽 1 张牌。 cr7mod:消耗 。"
+  }
+  ,  
+  "CR7Mod:Modric": {
+    "NAME": "祭司：莫德里奇",
+    "DESCRIPTION": " cr7mod:人物 。获得 !M! 点 cr7mod:力量 。获得 [E] 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:ThreePeat": {
+    "NAME": "三连冠",
+    "DESCRIPTION": "获得 !M! 点 cr7mod:粉丝 。从 cr7mod:磐石：拉莫斯 、 cr7mod:腾云：贝尔 、 cr7mod:祭司：莫德里奇 中选择 1 张加入手牌。"
+  }
+  ,
+  "CR7Mod:Benzema": {
+    "NAME": "锅锋：本泽马",
+    "DESCRIPTION": " cr7mod:人物 。失去 3 点 cr7mod:粉丝 。获得 !M! 层 cr7mod:缓冲 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:Pepe": {
+    "NAME": "武僧：佩佩",
+    "DESCRIPTION": " cr7mod:人物 。失去 30 点 cr7mod:粉丝 。造成 !D! 点伤害。使所有敌人永久失去 !M! 点 cr7mod:力量 。将 1 张 cr7mod:红牌 加入手牌。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:KingOfDesert": {
+    "NAME": "沙皇",
+    "DESCRIPTION": "失去 7 点 cr7mod:粉丝 。获得 !M! 金币 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:BallonDor": {
+    "NAME": "金球",
+    "DESCRIPTION": "获得 !M! 点 cr7mod:粉丝 。获得 [E] 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:GOAT": {
+    "NAME": "球王",
+    "DESCRIPTION": "每回合开始时，将一张 cr7mod:金球 加入你的手牌。",
+    "UPGRADE_DESCRIPTION": " cr7mod:固有 。每回合开始时，将一张 cr7mod:金球 加入你的手牌。"
+  }
+  ,
+  "CR7Mod:StepOver": {
+    "NAME": "踩单车",
+    "DESCRIPTION": "获得 !B! 点 cr7mod:格挡 ，失去 !M! 点 cr7mod:力量 。"
+  }
+  , 
+  "CR7Mod:TurnAround": {
+    "NAME": "急停变向",
+    "DESCRIPTION": "抽 !M! 张牌。将一张 cr7mod:晕眩 加入你的抽牌堆。"
+  }
+  ,
+  "CR7Mod:ThreeKick": {
+    "NAME": "罗三脚",
+    "DESCRIPTION": "造成 !D! 点伤害 3 次，获得 !M! 点力量，将一张 cr7mod:红牌 加入手牌。"
+  }
+  ,
+  "CR7Mod:Chess": {
+    "NAME": "双骄",
+    "DESCRIPTION": "选择手牌中的两张卡，将左侧的变化为右侧的。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": "选择手牌中的两张卡，将左侧的变化为右侧的。"
+  }
+  ,
+  "CR7Mod:Charge": {
+    "NAME": "蓄力",
+    "DESCRIPTION": "获得 !M! 点 cr7mod:力量 ，结束你的回合。"
+  }
+  ,
+  "CR7Mod:Laoba": {
+    "NAME": "地上足球",
+    "DESCRIPTION": "不能被打出。抽到时获得 1 层 cr7mod:虚弱 。"
+  }
+  ,
+  "CR7Mod:Zhen": {
+    "NAME": "真实球迷汇",
+    "DESCRIPTION": "不能被打出。抽到时失去 3 点 cr7mod:粉丝 。"
+  }
+  ,
+  "CR7Mod:Daikuan": {
+    "NAME": "贷款冠军",
+    "DESCRIPTION": "接下来 X 回合开始时随机获得 1 张稀有卡且该回合费用为 0 。将一张 cr7mod:地上足球 加入抽牌堆。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": "接下来 X+1 回合开始时随机获得 1 张稀有卡且该回合费用为 0 。将一张 cr7mod:地上足球 加入抽牌堆。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:WWE": {
+    "NAME": "罗绞",
+    "DESCRIPTION": "造成 !D! 点伤害和 !M! 层虚弱。将 1 张 cr7mod:真实球迷汇 加入抽牌堆。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:Bruno": {
+    "NAME": "魔术师：布鲁诺",
+    "DESCRIPTION": " cr7mod:人物 。从 3 张技能牌中选择 1 张加入手牌， cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": " cr7mod:人物 。从 3 张技能牌中选择 1 张加入手牌，本回合费用变为 0 ， cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:Kaka": {
+    "NAME": "上帝之子：卡卡",
+    "DESCRIPTION": " cr7mod:人物 。获得等同于你抽牌堆数量的粉丝数。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": " cr7mod:人物 。获得等同于你抽牌堆数量的粉丝数。 cr7mod:消耗 。 cr7mod:固有 。"
+  }
+  ,
+  "CR7Mod:Circle": {
+    "NAME": "回旋镖",
+    "DESCRIPTION": "本回合你的下 !M! 张攻击牌将打出 2 次。"
+  }
+  ,
+  "CR7Mod:Ferguson": {
+    "NAME": "弗格森",
+    "DESCRIPTION": " cr7mod:人物 。弃除所有手牌。将弃牌堆洗入抽牌堆并将手牌抽满。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": " cr7mod:人物 。弃除所有手牌。将弃牌堆洗入抽牌堆并将手牌抽满。"
+  }
+  ,
+  "CR7Mod:Unyield": {
+    "NAME": "不屈",
+    "DESCRIPTION": "每受到一次伤害，获得 !M! 点 cr7mod:粉丝 。"
+  }
+}
+

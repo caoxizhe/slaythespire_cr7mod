@@ -1,0 +1,13 @@
+{
+  "CR7Mod:NotEnoughFans": {
+    "TEXT": [
+      "粉丝不足，无法打出。"
+    ]
+  }
+  ,
+  "CR7Mod:RedCardBlocked": {
+    "TEXT": [
+      "红牌，禁赛。"
+    ]
+  }
+}
