@@ -31,11 +31,13 @@ cr7mod\utils\MoroccoStatusTracker.class
 cr7mod\cards\YellowCard.class
 cr7mod\cards\SpeedUp.class
 cr7mod\cards\BianconeriGlory.class
+cr7mod\cards\Mourinho.class
 cr7mod\cards\RedCard.class
 cr7mod\cards\Pepe.class
 cr7mod\cards\UnbalancedShoot.class
 cr7mod\cards\HatTrick.class
 cr7mod\relics\Whistle.class
+cr7mod\powers\MourinhoPower.class
 cr7mod\cards\DragonCurve.class
 cr7mod\cards\StepOver.class
 cr7mod\patches\FansPostfixPatch.class
@@ -82,6 +84,7 @@ cr7mod\cards\WillPower.class
 cr7mod\patches\RedCardBlockPatch.class
 cr7mod\patches\ChessAction.class
 cr7mod\cards\ThreePeat.class
+cr7mod\cards\Rooney.class
 cr7mod\cards\Unyield.class
 cr7mod\cards\Charge.class
 cr7mod\cards\DragonCurve$1.class
@@ -107,6 +110,7 @@ cr7mod\cards\Bale.class
 cr7mod\cards\Angry.class
 cr7mod\cards\Ramos.class
 cr7mod\powers\YoungPower.class
+cr7mod\powers\RooneyPower.class
 cr7mod\powers\GOATPower.class
 cr7mod\cards\LuxembourgReaper.class
 cr7mod\cards\Chess.class

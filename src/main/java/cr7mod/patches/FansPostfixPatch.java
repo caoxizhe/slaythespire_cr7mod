@@ -1,7 +1,5 @@
 package cr7mod.patches;
 
-import org.lwjgl.Sys;
-
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;

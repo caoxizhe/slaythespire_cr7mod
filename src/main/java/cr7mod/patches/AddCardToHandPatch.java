@@ -4,10 +4,15 @@ import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePostfixPatch;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.powers.AbstractPower;
+
 import cr7mod.cards.Morocco;
 import cr7mod.cards.YellowCard;
+import cr7mod.powers.YoungPower;
 import cr7mod.utils.MoroccoStatusTracker;
 import cr7mod.utils.YellowCheck;
+import cr7mod.powers.RooneyPower;
 import java.lang.reflect.Field;
 
 
@@ -28,11 +33,20 @@ public class AddCardToHandPatch {
                     AbstractCard ac = (AbstractCard)o;
                     String cardId = ac.cardID;
                     if (cardId != null) {
+
                         if (YellowCard.ID.equals(cardId)) {
                             YellowCheck.handleYellowCheck();
                         }
+
                         if (Morocco.ID.equals(cardId)) {
                             MoroccoStatusTracker.blockFansThisTurn();
+                        }
+
+                        AbstractPower rn = AbstractDungeon.player.getPower(RooneyPower.POWER_ID);
+                        if (rn instanceof RooneyPower) {
+                            if (ac.type == AbstractCard.CardType.STATUS || ac.type == AbstractCard.CardType.CURSE) {
+                                ((RooneyPower) rn).onAfterBadCard();
+                            }
                         }
                     }
                 }

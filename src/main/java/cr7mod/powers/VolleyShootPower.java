@@ -11,14 +11,10 @@ import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.actions.common.DamageRandomEnemyAction;
 import com.megacrit.cardcrawl.actions.AbstractGameAction.AttackEffect;
-import java.util.ArrayList;
-import java.util.List;
 
 public class VolleyShootPower extends AbstractPower {
     public static final String POWER_ID = "CR7Mod:VolleyShootPower";
     private static final PowerStrings POWER_STRINGS = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
-
-    private final List<Integer> damages = new ArrayList<>();
 
     public VolleyShootPower(AbstractCreature owner, int damage) {
         this.ID = POWER_ID;
@@ -26,14 +22,7 @@ public class VolleyShootPower extends AbstractPower {
         this.name = POWER_STRINGS.NAME;
         this.type = PowerType.BUFF;
         this.isTurnBased = false;
-        if (damage > 0) {
-            this.damages.add(damage);
-            int total = 0;
-            for (Integer d : this.damages) total += d;
-            this.amount = total;
-        } else {
-            this.amount = 0;
-        }
+        this.amount = damage;
         loadIcon();
         updateDescription();
     }
@@ -47,14 +36,12 @@ public class VolleyShootPower extends AbstractPower {
 
     @Override
     public void stackPower(int stackAmount) {
-        if (stackAmount > 0) {
-            this.damages.add(stackAmount);
-            this.fontScale = 8.0F;
-            int total = 0;
-            for (Integer d : this.damages) total += d;
-            this.amount = total;
-            updateDescription();
+        this.fontScale = 8.0F;
+        this.amount += stackAmount;
+        if (this.amount < 0) {
+            this.amount = 0;
         }
+        updateDescription();
     }
 
     @Override
@@ -63,14 +50,12 @@ public class VolleyShootPower extends AbstractPower {
     }
 
     public void onFansApplied() {
-        if (this.damages.isEmpty()) return;
-        int total = 0;
-        for (Integer dmg : this.damages) total += dmg;
+        if (this.amount <= 0) return;
         this.flash();
         AbstractDungeon.actionManager.addToBottom(
             new DamageRandomEnemyAction(
-                new DamageInfo(AbstractDungeon.player, total), 
-                AttackEffect.FIRE
+                new DamageInfo(AbstractDungeon.player, this.amount, DamageInfo.DamageType.THORNS), 
+                AttackEffect.LIGHTNING
             )
         );
     }

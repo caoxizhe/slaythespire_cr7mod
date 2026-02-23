@@ -20,6 +20,8 @@ public class CharacterCardList {
         LIST.add("CR7Mod:Kaka");
         LIST.add("CR7Mod:Ferguson");
         LIST.add("CR7Mod:Dimaria");
+        LIST.add("CR7Mod:Mourinho");
+        LIST.add("CR7Mod:Rooney");
     }
 
     public static boolean isCharacterCard(String cardId) {

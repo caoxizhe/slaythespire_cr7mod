@@ -113,6 +113,8 @@ import cr7mod.cards.XYY;
 import cr7mod.cards.Young;
 import cr7mod.cards.ButMe;
 import cr7mod.cards.Dimaria;
+import cr7mod.cards.Mourinho;
+import cr7mod.cards.Rooney;
 import cr7mod.potions.BallonDorPotion;
 import cr7mod.potions.CocaColaPotion;
 import cr7mod.potions.CharacterPotion;
@@ -239,6 +241,8 @@ public class CR7Mod implements EditCardsSubscriber, EditStringsSubscriber, EditK
         BaseMod.addCard(new Young());
         BaseMod.addCard(new ButMe());
         BaseMod.addCard(new Dimaria());
+        BaseMod.addCard(new Mourinho());
+        BaseMod.addCard(new Rooney());
     }
 
     @Override

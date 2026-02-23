@@ -428,5 +428,16 @@
     "NAME": "舍我其谁",
     "DESCRIPTION": "失去 7 点生命，对所有敌人造成 !D! 点伤害 7 次，本场战斗结束后回复 7 点生命。"
   }
+  ,
+  "CR7Mod:Mourinho": {
+    "NAME": "穆里尼奥",
+    "DESCRIPTION": " cr7mod:人物 。本回合每打出 1 张攻击牌，获得 !M! 点 cr7mod:敏捷 。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": " cr7mod:人物 。本回合每打出 1 张攻击牌，获得 !M! 点 cr7mod:敏捷 。"
+  }
+  ,
+  "CR7Mod:Rooney": {
+    "NAME": "最佳拍档：鲁尼",
+    "DESCRIPTION": " cr7mod:人物 。随机造成 !D! 点伤害 3 次。本场战斗你每次将状态或诅咒牌加入手牌时，获得 !M! 点力量和 !M! 点敏捷。 cr7mod:消耗 。"
+  }
 }
 
