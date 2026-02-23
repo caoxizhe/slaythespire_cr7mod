@@ -66,6 +66,7 @@ public class VolleyShootPower extends AbstractPower {
         if (this.damages.isEmpty()) return;
         int total = 0;
         for (Integer dmg : this.damages) total += dmg;
+        this.flash();
         AbstractDungeon.actionManager.addToBottom(
             new DamageRandomEnemyAction(
                 new DamageInfo(AbstractDungeon.player, total), 

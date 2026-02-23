@@ -72,7 +72,7 @@
     "CR7Mod:GOATPower": {
       "NAME": "球王",
       "DESCRIPTIONS": [
-        "每回合开始时，将一张金球加入手牌。"
+        "每回合开始时，将一张 #y金球 加入手牌。"
       ]
     }
     ,
@@ -94,6 +94,27 @@
       "NAME": "不屈",
       "DESCRIPTIONS": [
         "每受到一次伤害，获得 %d 点粉丝。"
+      ]
+    }
+    ,
+    "CR7Mod:AngryPower": {
+      "NAME": "破防",
+      "DESCRIPTIONS": [
+        "回合开始时，随机将 %d 位敌人的格挡转化为你的粉丝。"
+      ]
+    }
+    ,
+    "CR7Mod:XYYPower": {
+      "NAME": "超雄",
+      "DESCRIPTIONS": [
+        "每回合开始额外获得 2 点能量 ，并将 1 张 #y黄牌 加入手牌。"
+      ]
+    }
+    ,
+    "CR7Mod:YoungPower": {
+      "NAME": "鲜衣怒马",
+      "DESCRIPTIONS": [
+        "当你获得 #y粉丝 时，将获得的数量翻倍。"
       ]
     }
 }

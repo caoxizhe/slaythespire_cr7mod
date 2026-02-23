@@ -39,6 +39,7 @@ public class GOATPower extends AbstractPower {
 
     @Override
     public void atStartOfTurnPostDraw() {
+        this.flash();
         AbstractCard c = new BallonDor();
         this.addToTop(new MakeTempCardInHandAction(c, this.amount));
     }

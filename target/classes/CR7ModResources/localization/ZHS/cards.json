@@ -388,5 +388,45 @@
     "NAME": "不屈",
     "DESCRIPTION": "每受到一次伤害，获得 !M! 点 cr7mod:粉丝 。"
   }
+  ,
+  "CR7Mod:BigCock": {
+    "NAME": "罗哥冲击",
+    "DESCRIPTION": "造成 !D! 点伤害。目标敌人获得 cr7mod:缓慢 ，将 1 张 cr7mod:黄牌 加入手牌。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:Jump": {
+    "NAME": "空中优势",
+    "DESCRIPTION": "本局游戏中， cr7mod:头球 和 cr7mod:炮弹头槌 的伤害永久增加 !M! 。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:Hired": {
+    "NAME": "雇佣兵",
+    "DESCRIPTION": "每有 50 金币，造成 !M! 点伤害。"
+  }
+  ,
+  "CR7Mod:Angry": {
+    "NAME": "破防",
+    "DESCRIPTION": "每回合开始时随机将 1 位敌人的 cr7mod:格挡 转化为你的 cr7mod:粉丝 。"
+  }
+  ,
+  "CR7Mod:XYY": {
+    "NAME": "超雄",
+    "DESCRIPTION": "每回合开始额外获得 [E] [E] ，并将 1 张 cr7mod:黄牌 加入手牌。"
+  }
+  ,
+  "CR7Mod:Young": {
+    "NAME": "鲜衣怒马",
+    "DESCRIPTION": "当你获得 cr7mod:粉丝 时，将获得的数量翻倍。"
+  }
+  ,
+  "CR7Mod:Dimaria": {
+    "NAME": "迪玛利亚",
+    "DESCRIPTION": " cr7mod:人物 。造成 !D! 点伤害，从手牌中选择至多 !M! 张消耗。 cr7mod:消耗 。"
+  }
+  ,
+  "CR7Mod:ButMe": {
+    "NAME": "舍我其谁",
+    "DESCRIPTION": "失去 7 点生命，对所有敌人造成 !D! 点伤害 7 次，本场战斗结束后回复 7 点生命。"
+  }
 }
 

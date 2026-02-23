@@ -1,19 +1,19 @@
 package cr7mod.patches;
 
-import basemod.ReflectionHacks;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePrefixPatch;
 import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import basemod.ReflectionHacks;
 import cr7mod.powers.FansPower;
 import cr7mod.utils.MoroccoStatusTracker;
 
 @SpirePatch(clz = ApplyPowerAction.class, method = "update")
-public class MoroccoNoFansPatch {
+public class NoFansPatch {
     @SpirePrefixPatch
-    public static SpireReturn<Void> prefix(ApplyPowerAction __instance) {
+    public static SpireReturn<Void> prefix(ApplyPowerAction __instance) { 
         try {
             if (__instance == null) return SpireReturn.Continue();
             AbstractCreature target = __instance.target;
@@ -26,6 +26,7 @@ public class MoroccoNoFansPatch {
                 __instance.isDone = true;
                 return SpireReturn.Return(null);
             }
+
         } catch (Exception e) {
             e.printStackTrace();
         }

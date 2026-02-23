@@ -54,6 +54,7 @@ public class DaikuanPower extends AbstractPower {
         AbstractCard card = CardLibrary.getCard(cardId);
 
         if (card != null) {
+            this.flash();
             AbstractCard copycard = card.makeCopy();
             copycard.setCostForTurn(0);
             this.addToBot(new MakeTempCardInHandAction(copycard, 1));

@@ -36,6 +36,7 @@ public class RonaldoRushdownPower extends AbstractPower {
 
     public void onFansApplied() {
         if (this.owner != null && this.amount > 0) {
+            this.flash();
             AbstractDungeon.actionManager.addToBottom(
                 new DrawCardAction(this.owner, this.amount)
             );

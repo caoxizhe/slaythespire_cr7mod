@@ -42,7 +42,6 @@ public class MadridistaStancePower extends AbstractPower {
 
     @Override
     public void updateDescription() {
-        // Use formatted description with two integers: draw extra and free count
         if (POWER_STRINGS.DESCRIPTIONS.length > 0) {
             this.description = String.format(POWER_STRINGS.DESCRIPTIONS[0], this.amount, this.amount);
         } else {
@@ -53,12 +52,10 @@ public class MadridistaStancePower extends AbstractPower {
     @Override
     public void atStartOfTurnPostDraw() {
         this.flash();
-        // draw extra cards
         AbstractDungeon.actionManager.addToBottom(
             new DrawCardAction(this.owner, this.amount)
         );
 
-        // after drawing, set random cards in hand to cost 0 for this turn
         AbstractDungeon.actionManager.addToBottom(new AbstractGameAction() {
             @Override
             public void update() {

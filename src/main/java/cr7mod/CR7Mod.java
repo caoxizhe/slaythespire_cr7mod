@@ -105,6 +105,14 @@ import cr7mod.cards.Kaka;
 import cr7mod.cards.Circle;
 import cr7mod.cards.Ferguson;
 import cr7mod.cards.Unyield;
+import cr7mod.cards.BigCock;
+import cr7mod.cards.Jump;
+import cr7mod.cards.Hired;
+import cr7mod.cards.Angry;
+import cr7mod.cards.XYY;
+import cr7mod.cards.Young;
+import cr7mod.cards.ButMe;
+import cr7mod.cards.Dimaria;
 import cr7mod.potions.BallonDorPotion;
 import cr7mod.potions.CocaColaPotion;
 import cr7mod.potions.CharacterPotion;
@@ -223,6 +231,14 @@ public class CR7Mod implements EditCardsSubscriber, EditStringsSubscriber, EditK
         BaseMod.addCard(new Circle());
         BaseMod.addCard(new Ferguson());
         BaseMod.addCard(new Unyield());
+        BaseMod.addCard(new BigCock());
+        BaseMod.addCard(new Jump());
+        BaseMod.addCard(new Hired());
+        BaseMod.addCard(new Angry());
+        BaseMod.addCard(new XYY());
+        BaseMod.addCard(new Young());
+        BaseMod.addCard(new ButMe());
+        BaseMod.addCard(new Dimaria());
     }
 
     @Override

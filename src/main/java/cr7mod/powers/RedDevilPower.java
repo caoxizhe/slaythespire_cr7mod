@@ -45,6 +45,7 @@ public class RedDevilPower extends AbstractPower {
         FansPower fp = (FansPower) this.owner.getPower(FansPower.POWER_ID);
         int fans = fp != null ? fp.amount : 0;
         if (fans > 0) {
+            this.flash();
             int total = fans * this.amount;
             if (total <= 0) return;
             int[] dmg = DamageInfo.createDamageMatrix(total, true);

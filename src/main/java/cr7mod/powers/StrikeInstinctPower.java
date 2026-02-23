@@ -44,11 +44,12 @@ public class StrikeInstinctPower extends AbstractPower {
             if (card.target == AbstractCard.CardTarget.ALL_ENEMY || card.target == AbstractCard.CardTarget.ALL) {
                 for (AbstractMonster monster : AbstractDungeon.getMonsters().monsters) {
                     if (!monster.isDead && !monster.isDying) {
-                        // Immediately reduce Strength by amount and schedule a GainStrength to restore it at end of turn
+                        this.flash();
                         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(monster, owner, new StrengthPower(monster, -this.amount), -this.amount));
                     }
                 }
             } else if (m != null && !m.isDead && !m.isDying) {
+                this.flash();
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, owner, new StrengthPower(m, -this.amount), -this.amount));
             }
         }

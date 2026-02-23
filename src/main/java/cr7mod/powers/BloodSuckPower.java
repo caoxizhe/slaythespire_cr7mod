@@ -41,7 +41,7 @@ public class BloodSuckPower extends AbstractPower {
     @Override
     public void onAfterUseCard(AbstractCard card, UseCardAction action) {
         if (card != null && CharacterCardList.isCharacterCard(card.cardID)) {
-            flash();
+            this.flash();
             AbstractDungeon.actionManager.addToBottom(
                 new GainEnergyAction(this.amount)
             );

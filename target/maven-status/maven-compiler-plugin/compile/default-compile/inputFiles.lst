@@ -1,4 +1,6 @@
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\utils\CharacterCardList.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\XYY.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\utils\YellowCheck.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\SilenceCampNou.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\potions\CocaColaPotion.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\characters\CR7Character.java
@@ -18,7 +20,10 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Luxembo
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Dribble.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Bale.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\CounterAttack.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\ButMe.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Circle.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\patches\FansPostfixPatch.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\patches\JumpAction.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\BianconeriGloryPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\RedCard.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\SIUUUUU.java
@@ -28,6 +33,7 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\FollowU
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\ButterflyOverSea.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Modric.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\AcrobaticShoot.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Angry.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\helpers\Keyword.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\VolleyShoot.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Charge.java
@@ -38,23 +44,25 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\utils\RedCard
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Antony.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\WarriorSpirit.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\WillPower.java
-C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\patches\ApplyPowerActionPatch.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\VolleyShootPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\HeavyShoot.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Bruno.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\OneTouchShoot.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\TurnAround.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\HideBall.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\YoungPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Pepe.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Dimaria.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\BargeReferee.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\relics\ShinGuard.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\BigCock.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\BulletHeader.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\YellowCard.java
-C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\patches\MoroccoNoFansPatch.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\StrikeInstinctPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\BestNo7.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\FansPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\utils\FansGainTracker.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Young.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\CR7Mod.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\MadridistaStance.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Mbappe.java
@@ -62,6 +70,7 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\Ronald
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\DragonCurve.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Zhen.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Unyield.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Hired.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\BallonDor.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Morocco.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\RonaldoRushdown.java
@@ -69,6 +78,7 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\utils\RareCar
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\StepOver.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\patches\ResetFansTrackerPatch.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\MadridistaStancePower.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\XYYPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Ferguson.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\relics\Contract.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\potions\BallonDorPotion.java
@@ -80,6 +90,7 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\potions\Chara
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\GOATPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\UnbalancedShoot.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Kaka.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\patches\NoFansPatch.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\RedDevilPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\BloodSuckPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\DaikuanPower.java
@@ -98,6 +109,7 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\PublicH
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Tackle.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Header.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Ronalander.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Jump.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Duel.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\ThreeKick.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\Offside.java
@@ -112,6 +124,7 @@ C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\SpeedUp
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\ArabCup.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\BianconeriGlory.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\HatTrick.java
+C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\powers\AngryPower.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\RedDevil.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\cards\BicycleKick.java
 C:\Users\86187\Desktop\杀戮尖塔mod制作\CR7Mod\src\main\java\cr7mod\relics\GoldShoe.java

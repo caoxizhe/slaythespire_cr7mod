@@ -20,7 +20,7 @@ public class ChessAction extends AbstractGameAction {
 
 	@Override
 	public void update() {
-    	// 第一帧：只打开一次选择界面
+    	// 打开选择界面
     	if (this.duration == Settings.ACTION_DUR_FAST) {
         	AbstractDungeon.handCardSelectScreen.open("将左侧的牌替换为右侧", this.amount, false);
         	this.tickDuration();

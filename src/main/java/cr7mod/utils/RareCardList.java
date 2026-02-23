@@ -18,10 +18,9 @@ public class RareCardList {
         LIST.add("CR7Mod:SIUUUUU");
         LIST.add("CR7Mod:Chess");
         LIST.add("CR7Mod:UnbalancedShoot");
-        LIST.add("CR7Mod:PublicHero");
+        LIST.add("CR7Mod:Young");
         LIST.add("CR7Mod:Dribble");
         LIST.add("CR7Mod:KingOfDesert");
-        LIST.add("CR7Mod:ThreePeat");
         LIST.add("CR7Mod:Roar");
         LIST.add("CR7Mod:StrikeInstinct");
         LIST.add("CR7Mod:GOAT");

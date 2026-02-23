@@ -12,8 +12,8 @@ public class FansPower extends AbstractPower {
     public static final String POWER_ID = "CR7Mod:Fans";
     private static final PowerStrings POWER_STRINGS = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
 
-    private static final String IMG_84 = "fan_84.png";
-    private static final String IMG_32 = "fan_32.png";
+    private static final String IMG_84 = "powers/fan_84.png";
+    private static final String IMG_32 = "powers/fan_32.png";
 
     public FansPower(AbstractCreature owner, int amount) {
         this.ID = POWER_ID;
@@ -53,5 +53,13 @@ public class FansPower extends AbstractPower {
     @Override
     public void updateDescription() {
         this.description = POWER_STRINGS.DESCRIPTIONS[0].replace("{0}", String.valueOf(this.amount));
+    }
+
+    @Override
+    public void stackPower(int stackAmount) {
+        this.fontScale = 8.0F;
+        this.amount += stackAmount;
+        if (this.amount < 0) this.amount = 0;
+        updateDescription();
     }
 }
