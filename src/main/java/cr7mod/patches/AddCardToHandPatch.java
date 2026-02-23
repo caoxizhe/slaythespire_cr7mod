@@ -9,7 +9,6 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 
 import cr7mod.cards.Morocco;
 import cr7mod.cards.YellowCard;
-import cr7mod.powers.YoungPower;
 import cr7mod.utils.MoroccoStatusTracker;
 import cr7mod.utils.YellowCheck;
 import cr7mod.powers.RooneyPower;
