@@ -93,7 +93,7 @@
   ,
   "CR7Mod:StrikeInstinct": {
     "NAME": "射手本能",
-    "DESCRIPTION": "每当你打出攻击牌，目标永久失去 1 点 cr7mod:力量 。"
+    "DESCRIPTION": "每当你打出攻击牌，目标敌人永久失去 1 点 cr7mod:力量 。随机的攻击没有目标。"
   }
   ,
   "CR7Mod:RedDevil": {

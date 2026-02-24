@@ -48,7 +48,8 @@ public class StrikeInstinctPower extends AbstractPower {
                         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(monster, owner, new StrengthPower(monster, -this.amount), -this.amount));
                     }
                 }
-            } else if (m != null && !m.isDead && !m.isDying) {
+            } 
+            else if (m != null && !m.isDead && !m.isDying) {
                 this.flash();
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, owner, new StrengthPower(m, -this.amount), -this.amount));
             }

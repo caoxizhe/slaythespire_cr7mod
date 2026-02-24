@@ -65,15 +65,21 @@ public class BicycleKick extends CustomCard {
     @Override
     public void applyPowers() {
         super.applyPowers();
+
+        if ((this.isCostModifiedForTurn && this.costForTurn == 0)) {
+            return;
+        }
+
         // Dynamic cost reduction: each 7 Fans reduces cost by 1
         int fansAmount = 0;
         if (AbstractDungeon.player != null) {
             AbstractPower fans = AbstractDungeon.player.getPower(FansPower.POWER_ID);
             fansAmount = fans == null ? 0 : fans.amount;
+            
+            int reduction = fansAmount / 7;
+            int newCostForTurn = Math.max(0, this.cost - reduction);
+            this.costForTurn = newCostForTurn;
         }
-        int reduction = fansAmount / 7;
-        int newCostForTurn = Math.max(0, this.cost - reduction);
-        this.costForTurn = newCostForTurn;
     }
 
     @Override
