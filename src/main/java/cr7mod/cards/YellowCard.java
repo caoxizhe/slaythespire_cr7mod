@@ -7,6 +7,8 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
+import cr7mod.utils.YellowCheck;
+
 public class YellowCard extends CustomCard {
     public static final String ID = "CR7Mod:YellowCard";
     private static final CardStrings CARD_STRINGS = CardCrawlGame.languagePack.getCardStrings(ID);
@@ -29,6 +31,11 @@ public class YellowCard extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         // Unplayable status; nothing happens when used.
+    }
+
+    @Override
+    public void triggerWhenDrawn() {
+        YellowCheck.handleYellowCheck();
     }
 
     @Override
