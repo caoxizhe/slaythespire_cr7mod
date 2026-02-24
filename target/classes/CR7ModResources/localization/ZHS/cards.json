@@ -386,7 +386,7 @@
   ,
   "CR7Mod:Unyield": {
     "NAME": "不屈",
-    "DESCRIPTION": "每受到一次伤害，获得 !M! 点 cr7mod:粉丝 。"
+    "DESCRIPTION": "每受到一次来自敌人的伤害，获得 !M! 点 cr7mod:粉丝 。"
   }
   ,
   "CR7Mod:BigCock": {
