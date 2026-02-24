@@ -38,7 +38,7 @@ public class UnyieldPower extends AbstractPower {
 
     @Override
     public int onAttacked(DamageInfo info, int damageAmount) {
-        if (this.owner != null && damageAmount > this.owner.currentBlock && damageAmount > 0 && this.amount > 0) {
+        if (this.owner != null && damageAmount > this.owner.currentBlock) {
             this.flash();
             AbstractDungeon.actionManager.addToBottom(
                 new ApplyPowerAction(this.owner, this.owner, new FansPower(this.owner, this.amount), this.amount)
