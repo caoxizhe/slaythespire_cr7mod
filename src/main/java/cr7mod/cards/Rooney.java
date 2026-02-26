@@ -29,7 +29,6 @@ public class Rooney extends CustomCard {
     private static final CardTarget TARGET = CardTarget.SELF;
 
     private static final int BASE_DAMAGE = 5;
-    private static final int UPGRADE_DAMAGE = 3;
     private static final int HITS = 3;  
     private static final int BASE_MAGIC = 1;
 
@@ -62,8 +61,10 @@ public class Rooney extends CustomCard {
     @Override
     public void upgrade() {
         if (!upgraded) {
+            this.isInnate = true;
             upgradeName();
-            upgradeDamage(UPGRADE_DAMAGE);
+            this.rawDescription = CARD_STRINGS.UPGRADE_DESCRIPTION;
+            this.initializeDescription();
         }
     }
 

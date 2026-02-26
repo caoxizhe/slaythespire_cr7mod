@@ -437,7 +437,8 @@
   ,
   "CR7Mod:Rooney": {
     "NAME": "最佳拍档：鲁尼",
-    "DESCRIPTION": " cr7mod:人物 。随机造成 !D! 点伤害 3 次。本场战斗你每次将状态或诅咒牌加入手牌时，获得 !M! 点力量和 !M! 点敏捷。 cr7mod:消耗 。"
+    "DESCRIPTION": " cr7mod:人物 。随机造成 !D! 点伤害 3 次。本场战斗你每次将状态或诅咒牌加入手牌时，获得 !M! 点力量和 !M! 点敏捷。 cr7mod:消耗 。",
+    "UPGRADE_DESCRIPTION": " cr7mod:人物 。随机造成 !D! 点伤害 3 次。本场战斗你每次将状态或诅咒牌加入手牌时，获得 !M! 点力量和 !M! 点敏捷。 cr7mod:消耗 。 cr7mod:固有 。"
   }
   ,
   "CR7Mod:Marcelo": {

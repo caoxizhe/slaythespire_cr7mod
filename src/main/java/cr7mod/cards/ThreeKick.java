@@ -23,13 +23,13 @@ public class ThreeKick extends CustomCard {
     private static final String IMG_PATH = "card_picture/threekick.png";
     private static final int COST = 1;
     private static final String DESCRIPTION = CARD_STRINGS.DESCRIPTION;
-    private static final CardType TYPE = CardType.SKILL;
+    private static final CardType TYPE = CardType.ATTACK;
     private static final CardColor COLOR = CR7Character.Enums.CR7_COLOR;
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
-    private static final int BASE_DAMAGE = 7;
-    private static final int UPGRADE_DAMAGE = 3;
+    private static final int BASE_DAMAGE = 10;
+    private static final int UPGRADE_DAMAGE = 4;
     private static final int STRENGTH_GAIN = 3;
 
     public ThreeKick() {

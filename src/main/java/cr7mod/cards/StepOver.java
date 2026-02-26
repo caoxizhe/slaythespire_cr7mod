@@ -24,7 +24,7 @@ public class StepOver extends CustomCard {
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    private static final int BASE_BLOCK = 20;
+    private static final int BASE_BLOCK = 15;
     private static final int UPGRADE_BLOCK = 5;
     private static final int STRENGTH_LOSE = 1;
 
