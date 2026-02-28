@@ -24,34 +24,34 @@ public class WillPower extends CustomCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
-    private static final int BASE_DAMAGE = 6;
+    private static final int BASE_DAMAGE = 2;
     private static final int UPGRADE_DAMAGE = 2;
 
     public WillPower() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = BASE_DAMAGE; 
         this.damage = this.baseDamage;
-        this.baseMagicNumber = BASE_DAMAGE; 
-        this.magicNumber = this.baseMagicNumber;
     }
 
     private int getTimesPlayedThisInstance() {
         int count = 0;
-        
+
         for (AbstractCard c : AbstractDungeon.actionManager.cardsPlayedThisCombat) {
-            if (c != null && c == this) count++;
+            if (c != null && c.cardID != null && c.cardID.equals(this.cardID)) count++;
         }
-        
+
         return count + 1; // include this play
     }
 
     @Override
     public void applyPowers() {
         int times = getTimesPlayedThisInstance();
-        int increment = this.baseMagicNumber;
-        int computed = increment * times;
         int oldBase = this.baseDamage;
-        this.baseDamage = computed;
+        int multiplier = 1;
+        if (times > 1) {
+            multiplier = 1 << (times - 1); // 2^(times-1)
+        }
+        this.baseDamage = oldBase * multiplier;
         super.applyPowers();
         this.baseDamage = oldBase;
         this.isDamageModified = this.damage != this.baseDamage;
@@ -60,10 +60,12 @@ public class WillPower extends CustomCard {
     @Override
     public void calculateCardDamage(AbstractMonster mo) {
         int times = getTimesPlayedThisInstance();
-        int increment = this.baseMagicNumber;
-        int computed = increment * times;
         int oldBase = this.baseDamage;
-        this.baseDamage = computed;
+        int multiplier = 1;
+        if (times > 1) {
+            multiplier = 1 << (times - 1); // 2^(times-1)
+        }
+        this.baseDamage = oldBase * multiplier;
         super.calculateCardDamage(mo);
         this.baseDamage = oldBase;
         this.isDamageModified = this.damage != this.baseDamage;
@@ -85,7 +87,6 @@ public class WillPower extends CustomCard {
         if (!this.upgraded) {
             upgradeName();
             upgradeDamage(UPGRADE_DAMAGE);
-            upgradeMagicNumber(UPGRADE_DAMAGE);
         }
     }
 

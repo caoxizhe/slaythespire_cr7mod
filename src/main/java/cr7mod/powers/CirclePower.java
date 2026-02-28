@@ -1,7 +1,6 @@
 package cr7mod.powers;
 
 import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.AbstractCard.CardType;
 import com.megacrit.cardcrawl.cards.CardQueueItem;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
@@ -43,31 +42,25 @@ public class CirclePower extends AbstractPower {
 
     @Override
     public void onUseCard(AbstractCard card, UseCardAction action) {
-      if (!card.purgeOnUse && card.type == CardType.ATTACK && this.amount > 0) {
-         this.flash();
-         AbstractMonster m = null;
-         if (action.target != null) {
-            m = (AbstractMonster)action.target;
-         }
+        if (this.amount > 0) {
+            this.flash();
 
-         AbstractCard tmp = card.makeSameInstanceOf();
-         AbstractDungeon.player.limbo.addToBottom(tmp);
-         tmp.current_x = card.current_x;
-         tmp.current_y = card.current_y;
-         tmp.target_x = (float)Settings.WIDTH / 2.0F - 300.0F * Settings.scale;
-         tmp.target_y = (float)Settings.HEIGHT / 2.0F;
-         if (m != null) {
-            tmp.calculateCardDamage(m);
-         }
+            AbstractCard tmp = card.makeSameInstanceOf();
+            AbstractDungeon.player.limbo.addToBottom(tmp);
+            tmp.current_x = card.current_x;
+            tmp.current_y = card.current_y;
+            tmp.target_x = (float)Settings.WIDTH / 2.0F - 300.0F * Settings.scale;
+            tmp.target_y = (float)Settings.HEIGHT / 2.0F;
 
-         tmp.purgeOnUse = true;
-         AbstractDungeon.actionManager.addCardQueueItem(new CardQueueItem(tmp, m, card.energyOnUse, true, true), true);
-         --this.amount;
-         if (this.amount == 0) {
-            this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, this.ID));
-         }
-      }
-   }
+            tmp.purgeOnUse = true;
+            AbstractMonster target = action.target instanceof AbstractMonster ? (AbstractMonster) action.target : null;
+            AbstractDungeon.actionManager.addCardQueueItem(new CardQueueItem(tmp, target, card.energyOnUse, true), true);
+            --this.amount;
+            if (this.amount == 0) {
+                this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, this.ID));
+            }
+        }
+    }
 
     @Override
     public void updateDescription() {

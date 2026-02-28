@@ -17,20 +17,17 @@ public class Circle extends CustomCard {
     private static final CardStrings CARD_STRINGS = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = CARD_STRINGS.NAME;
     private static final String IMG_PATH = "card_picture/circle.png";
-    private static final int COST = 1; 
+    private static final int COST = 2; 
+    private static final int UPGRADE_COST = 1;
     private static final String DESCRIPTION = CARD_STRINGS.DESCRIPTION;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardColor COLOR = CR7Character.Enums.CR7_COLOR;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    private static final int BASE_MAGIC = 1;
-    private static final int UPGRADE_MAGIC = 1;
 
     public Circle() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseMagicNumber = BASE_MAGIC;
-        this.magicNumber = this.baseMagicNumber;
     }
 
     @Override
@@ -44,7 +41,7 @@ public class Circle extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            this.upgradeMagicNumber(UPGRADE_MAGIC);
+            this.upgradeBaseCost(UPGRADE_COST);
         }
     }
 

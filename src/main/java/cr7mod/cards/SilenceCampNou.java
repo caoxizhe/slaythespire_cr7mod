@@ -16,15 +16,15 @@ public class SilenceCampNou extends CustomCard {
     private static final CardStrings CARD_STRINGS = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = CARD_STRINGS.NAME;
     private static final String IMG_PATH = "card_picture/silence_camp_nou.png";
-    private static final int COST = 0;
+    private static final int COST = 1;
     private static final String DESCRIPTION = CARD_STRINGS.DESCRIPTION;
     private static final CardType TYPE = CardType.SKILL;
     private static final CardColor COLOR = CR7Character.Enums.CR7_COLOR;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
 
-    private static final int BASE_WEAK = 2;
-    private static final int UPGRADE_WEAK = 1;
+    private static final int BASE_WEAK = 3;
+    private static final int UPGRADE_WEAK = 2;
 
     public SilenceCampNou() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);

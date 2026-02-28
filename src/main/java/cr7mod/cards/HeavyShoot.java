@@ -20,7 +20,7 @@ public class HeavyShoot extends CustomCard {
     private static final CardStrings CARD_STRINGS = CardCrawlGame.languagePack.getCardStrings(ID);
     private static final String NAME = CARD_STRINGS.NAME;
     private static final String IMG_PATH = "card_picture/heavy_shoot.png";
-    private static final int COST = 2;
+    private static final int COST = 3;
     private static final String DESCRIPTION = CARD_STRINGS.DESCRIPTION;
     private static final CardType TYPE = CardType.ATTACK;
     private static final CardColor COLOR = CR7Character.Enums.CR7_COLOR;
@@ -28,30 +28,30 @@ public class HeavyShoot extends CustomCard {
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
     private static final int BASE_DAMAGE = 18;
-    private static final int UPGRADE_DAMAGE = 4;
-    private static final int ADD_DAMAGE = 20;
-    private static final int BASE_FANS = 3;
-    private static final int UPGRADE_FANS = 2;
-    private static final int FANS_THRESHOLD = 15;
+    private static final int UPGRADE_DAMAGE = 6;
+    private static final int MAGIC_NUMBER = 5;
+    private static final int UPGRADE_MAGIC_NUMBER = 2;
+    private static final int BASE_FANS = 5;
 
     public HeavyShoot() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = BASE_DAMAGE;
         this.damage = this.baseDamage;
-        this.baseMagicNumber = BASE_FANS;
+        this.baseMagicNumber = MAGIC_NUMBER;
         this.magicNumber = this.baseMagicNumber;
         this.tags.add(CardTags.STRIKE);
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int fans = 0;
-        if (p.hasPower(FansPower.POWER_ID)) fans = p.getPower(FansPower.POWER_ID).amount;
-
         int actualDamage = this.damage;
-        if (fans >= FANS_THRESHOLD) {
-            actualDamage += ADD_DAMAGE; 
+        int strength = 0;
+        if (p.hasPower("Strength")) {
+            AbstractPower sp = p.getPower("Strength");
+            if (sp != null) strength = sp.amount;
         }
+            
+        actualDamage += strength * (this.magicNumber - 1); 
 
         AbstractDungeon.actionManager.addToBottom(
             new DamageAction(
@@ -62,21 +62,42 @@ public class HeavyShoot extends CustomCard {
         );
         
         AbstractDungeon.actionManager.addToBottom(
-            new ApplyPowerAction(p, p, new FansPower(p, this.magicNumber), this.magicNumber)
+            new ApplyPowerAction(p, p, new FansPower(p, BASE_FANS), BASE_FANS)
         );
     }
 
     @Override
-    public void triggerOnGlowCheck() {
+    public void applyPowers() {
         AbstractPlayer p = AbstractDungeon.player;
+        int oldBase = this.baseDamage;
         if (p != null) {
-            AbstractPower fp = p.getPower(FansPower.POWER_ID);
-            if (fp != null && fp.amount >= FANS_THRESHOLD) {
-                this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
-                return;
+            int strength = 0;
+            if (p.hasPower("Strength")) {
+                AbstractPower sp = p.getPower("Strength");
+                if (sp != null) strength = sp.amount;
             }
+            this.baseDamage = oldBase + strength * (this.magicNumber - 1);
         }
-        this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        super.applyPowers();
+        this.baseDamage = oldBase;
+        this.isDamageModified = this.damage != this.baseDamage;
+    }
+
+    @Override
+    public void calculateCardDamage(AbstractMonster mo) {
+        AbstractPlayer p = AbstractDungeon.player;
+        int oldBase = this.baseDamage;
+        if (p != null) {
+            int strength = 0;
+            if (p.hasPower("Strength")) {
+                AbstractPower sp = p.getPower("Strength");
+                if (sp != null) strength = sp.amount;
+            }
+            this.baseDamage = oldBase + strength * (this.magicNumber - 1);
+        }
+        super.calculateCardDamage(mo);
+        this.baseDamage = oldBase;
+        this.isDamageModified = this.damage != this.baseDamage;
     }
 
     @Override
@@ -84,7 +105,7 @@ public class HeavyShoot extends CustomCard {
         if (!upgraded) {
             upgradeName();
             upgradeDamage(UPGRADE_DAMAGE);
-            upgradeMagicNumber(UPGRADE_FANS);
+            upgradeMagicNumber(UPGRADE_MAGIC_NUMBER);
         }
     }
 

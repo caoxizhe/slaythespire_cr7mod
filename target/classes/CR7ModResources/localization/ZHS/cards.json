@@ -194,7 +194,7 @@
   ,
   "CR7Mod:HeavyShoot": {
     "NAME": "重炮射门",
-    "DESCRIPTION": "造成 !D! 点伤害。若拥有 15 点及以上 cr7mod:粉丝 ，则额外造成 20 点伤害。获得 !M! 点 cr7mod:粉丝 。"
+    "DESCRIPTION": "造成 !D! 点伤害。力量在本卡牌上发挥 !M! 倍效果。获得 5 点 cr7mod:粉丝 。"
   }
   ,
   "CR7Mod:CounterAttack": {
@@ -229,7 +229,7 @@
   ,
   "CR7Mod:WillPower": {
     "NAME": "百折不挠",
-    "DESCRIPTION": "造成 !D! 点伤害。一场战斗中每打出一次，本牌的伤害增加 !M! 点。"
+    "DESCRIPTION": "造成 !D! 点伤害。一场战斗中每打出一次，本牌的伤害翻倍。"
   }
   ,
   "CR7Mod:DoubleKing": {
@@ -375,7 +375,7 @@
   ,
   "CR7Mod:Circle": {
     "NAME": "回旋镖",
-    "DESCRIPTION": "本回合你的下 !M! 张攻击牌将打出 2 次。"
+    "DESCRIPTION": "本回合你的下 1 张牌将打出 2 次。"
   }
   ,
   "CR7Mod:Ferguson": {
