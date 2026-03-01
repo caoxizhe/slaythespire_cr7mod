@@ -13,7 +13,7 @@ public class LuoJieJing extends CustomRelic {
     private static final String IMG_PATH = "yiwu/jiejing.png";
     private static final RelicTier RELIC_TIER = RelicTier.STARTER;
     private static final LandingSound LANDING_SOUND = LandingSound.FLAT;
-    private static final int BASE_FANS_GAIN = 60;
+    private static final int BASE_FANS_GAIN = 6;
 
     // current fans provided at battle start; stored in relic counter for persistence
 
