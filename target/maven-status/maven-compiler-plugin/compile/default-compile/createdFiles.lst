@@ -70,6 +70,7 @@ cr7mod\powers\MadridistaStancePower.class
 cr7mod\relics\Contract.class
 cr7mod\powers\MadridistaStancePower$1.class
 cr7mod\cards\SilenceCampNou.class
+cr7mod\patches\FansPostfixPatch$1.class
 cr7mod\cards\BulletHeader.class
 cr7mod\cards\Zhen.class
 cr7mod\cards\RedDevil.class

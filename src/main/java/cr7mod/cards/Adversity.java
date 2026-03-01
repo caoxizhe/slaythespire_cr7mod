@@ -24,7 +24,7 @@ public class Adversity extends CustomCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
-    private static final int BASE_HP_LOSS = 7;
+    private static final int BASE_HP_LOSS = 5;
     private static final int BASE_STRENGTH = 1;
     private static final int UPGRADE_STRENGTH = 1;
 

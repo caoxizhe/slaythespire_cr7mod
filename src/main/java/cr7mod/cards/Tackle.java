@@ -26,7 +26,7 @@ public class Tackle extends CustomCard {
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
 
-    private static final int BASE_BLOCK = 10;
+    private static final int BASE_BLOCK = 14;
     private static final int BASE_STRENGTH_LOSS = 2;
     private static final int UPGRADE_BLOCK = 4;
     private static final int UPGRADE_STRENGTH_LOSS = 1;

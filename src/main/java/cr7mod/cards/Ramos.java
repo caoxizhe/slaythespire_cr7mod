@@ -25,8 +25,8 @@ public class Ramos extends CustomCard {
     private static final CardRarity RARITY = CardRarity.SPECIAL;
     private static final CardTarget TARGET = CardTarget.ENEMY;
 
-    private static final int BASE_DAMAGE = 14;
-    private static final int BASE_BLOCK = 14;
+    private static final int BASE_DAMAGE = 10;
+    private static final int BASE_BLOCK = 10;
     private static final int UPGRADE_DAMAGE = 4;
     private static final int UPGRADE_BLOCK = 4;
 

@@ -23,16 +23,21 @@ public class PublicHero extends CustomCard {
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
 
+    private static final int ENERGY_PER_FANS = 7;
+    private static final int UPGRADE_ENERGY_PER_FANS = 5;
+
     public PublicHero() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
         this.exhaust = true;
+        this.baseMagicNumber = ENERGY_PER_FANS;
+        this.magicNumber = this.baseMagicNumber;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         int fans = 0;
         if (p.getPower(FansPower.POWER_ID) != null) fans = p.getPower(FansPower.POWER_ID).amount;
-        int energy = fans / 7;
+        int energy = fans / this.magicNumber;
         if (energy > 0) {
             AbstractDungeon.actionManager.addToBottom(
                 new GainEnergyAction(energy)
@@ -44,9 +49,7 @@ public class PublicHero extends CustomCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            this.selfRetain = true;
-            this.rawDescription = CARD_STRINGS.UPGRADE_DESCRIPTION;
-            this.initializeDescription();
+            upgradeMagicNumber(UPGRADE_ENERGY_PER_FANS);
         }
     }
 

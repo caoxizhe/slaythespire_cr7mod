@@ -22,15 +22,20 @@ public class FansPostfixPatch {
         try {
             if (powerToApply != null && FansPower.POWER_ID.equals(powerToApply.ID) && target == AbstractDungeon.player && stackAmount > 0 && !MoroccoStatusTracker.isBlocked()) {
 
-                AbstractPower vp = AbstractDungeon.player.getPower(VolleyShootPower.POWER_ID);
-                if (vp instanceof VolleyShootPower) {
-                    ((VolleyShootPower) vp).onFansApplied();
-                }
-
-                AbstractPower rushdown = AbstractDungeon.player.getPower(RonaldoRushdownPower.POWER_ID);
-                if (rushdown instanceof RonaldoRushdownPower) {
-                    ((RonaldoRushdownPower) rushdown).onFansApplied();
-                }
+                final AbstractPower vpPower = AbstractDungeon.player.getPower(VolleyShootPower.POWER_ID);
+                final AbstractPower rushPower = AbstractDungeon.player.getPower(RonaldoRushdownPower.POWER_ID);
+                AbstractDungeon.actionManager.addToBottom(new AbstractGameAction() {
+                    @Override
+                    public void update() {
+                        if (vpPower instanceof VolleyShootPower) {
+                            ((VolleyShootPower) vpPower).onFansApplied();
+                        }
+                        if (rushPower instanceof RonaldoRushdownPower) {
+                            ((RonaldoRushdownPower) rushPower).onFansApplied();
+                        }
+                        this.isDone = true;
+                    }
+                });
 
                 AbstractPower yp = AbstractDungeon.player.getPower(YoungPower.POWER_ID);
                 if (yp instanceof YoungPower) {

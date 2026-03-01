@@ -20,9 +20,11 @@ import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import java.util.ArrayList;
 
 import cr7mod.CR7Mod;
+import cr7mod.cards.BicycleKick;
 import cr7mod.cards.Duel;
 import cr7mod.cards.Header;
 import cr7mod.cards.Reign;
+import cr7mod.cards.RonaldoRushdown;
 import cr7mod.cards.Shoot;
 import cr7mod.relics.LuoJieJing;
 
@@ -72,14 +74,16 @@ public class CR7Character extends CustomPlayer {
     @Override
     public ArrayList<String> getStartingDeck() {
         ArrayList<String> retVal = new ArrayList<>();
-        for (int i = 0; i < 4; i++) {
+        /* for (int i = 0; i < 4; i++) {
             retVal.add(Shoot.ID);
         }
         for (int i = 0; i < 4; i++) {
             retVal.add(Duel.ID);
         }
         retVal.add(Header.ID);
-        retVal.add(Reign.ID);
+        retVal.add(Reign.ID); */
+        retVal.add(RonaldoRushdown.ID);
+        retVal.add(BicycleKick.ID);
         return retVal;
     }
 

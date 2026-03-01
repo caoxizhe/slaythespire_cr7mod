@@ -67,7 +67,7 @@
   ,
   "CR7Mod:Adversity": {
     "NAME": "绝境",
-    "DESCRIPTION": "失去 7 点生命，获得 !M! 点 cr7mod:力量 。本回合当前手牌中所有攻击牌下一次打出费用变为 0。"
+    "DESCRIPTION": "失去 5 点生命，获得 !M! 点 cr7mod:力量 。本回合当前手牌中所有攻击牌下一次打出费用变为 0。"
   }
   ,
   "CR7Mod:Roar": {
@@ -178,8 +178,7 @@
   ,
   "CR7Mod:PublicHero": {
     "NAME": "全民偶像",
-    "DESCRIPTION": "每有 7 点 cr7mod:粉丝 ，获得 [E]  。 cr7mod:消耗 。",
-    "UPGRADE_DESCRIPTION": "每有 7 点 cr7mod:粉丝 ，获得 [E] 。 cr7mod:消耗 。 cr7mod:保留 。"
+    "DESCRIPTION": "每有 !M! 点 cr7mod:粉丝 ，获得 [E]  。 cr7mod:消耗 。"
   }
   ,
   "CR7Mod:AcrobaticShoot": {
