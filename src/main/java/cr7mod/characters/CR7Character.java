@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import cr7mod.CR7Mod;
 import cr7mod.cards.Duel;
 import cr7mod.cards.Header;
+import cr7mod.cards.HeavyShoot;
 import cr7mod.cards.Reign;
 import cr7mod.cards.Shoot;
 import cr7mod.relics.LuoJieJing;
@@ -80,6 +81,7 @@ public class CR7Character extends CustomPlayer {
         }
         retVal.add(Header.ID);
         retVal.add(Reign.ID);
+        retVal.add(HeavyShoot.ID);
         return retVal;
     }
 

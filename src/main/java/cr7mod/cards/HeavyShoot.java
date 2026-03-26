@@ -45,14 +45,6 @@ public class HeavyShoot extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         int actualDamage = this.damage;
-        int strength = 0;
-        if (p.hasPower("Strength")) {
-            AbstractPower sp = p.getPower("Strength");
-            if (sp != null) strength = sp.amount;
-        }
-            
-        actualDamage += strength * (this.magicNumber - 1); 
-
         AbstractDungeon.actionManager.addToBottom(
             new DamageAction(
                 m,
