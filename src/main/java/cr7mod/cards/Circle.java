@@ -4,7 +4,6 @@ import basemod.abstracts.CustomCard;
 import cr7mod.characters.CR7Character;
 import cr7mod.powers.CirclePower;
 import com.megacrit.cardcrawl.powers.VulnerablePower;
-import com.megacrit.cardcrawl.powers.WeakPower;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
