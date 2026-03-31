@@ -81,7 +81,6 @@ public class CR7Character extends CustomPlayer {
         }
         retVal.add(Header.ID);
         retVal.add(Reign.ID);
-        retVal.add(HeavyShoot.ID);
         return retVal;
     }
 
