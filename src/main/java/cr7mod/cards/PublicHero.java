@@ -24,7 +24,7 @@ public class PublicHero extends CustomCard {
     private static final CardTarget TARGET = CardTarget.SELF;
 
     private static final int ENERGY_PER_FANS = 7;
-    private static final int UPGRADE_ENERGY_PER_FANS = 5;
+    private static final int UPGRADE_ENERGY_PER_FANS = -2;
 
     public PublicHero() {
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
