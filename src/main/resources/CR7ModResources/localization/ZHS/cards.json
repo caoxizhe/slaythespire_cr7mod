@@ -374,7 +374,7 @@
   ,
   "CR7Mod:Circle": {
     "NAME": "回旋镖",
-    "DESCRIPTION": "本回合你的下 1 张牌将打出 2 次。"
+    "DESCRIPTION": "给予 !M! 层 cr7mod:易伤 。本回合结束时你获得 1 层 cr7mod:易伤 。 cr7mod:消耗 。"
   }
   ,
   "CR7Mod:Ferguson": {

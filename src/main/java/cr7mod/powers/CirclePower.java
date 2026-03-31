@@ -1,19 +1,15 @@
 package cr7mod.powers;
 
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardQueueItem;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-import com.megacrit.cardcrawl.actions.utility.UseCardAction;
-import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.localization.PowerStrings;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
+import com.megacrit.cardcrawl.powers.VulnerablePower;
 
 public class CirclePower extends AbstractPower {
     public static final String POWER_ID = "CR7Mod:CirclePower";
@@ -27,7 +23,7 @@ public class CirclePower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         this.name = POWER_STRINGS.NAME;
-        this.type = PowerType.BUFF;
+        this.type = PowerType.DEBUFF;
         this.isTurnBased = false;
         loadIcon();
         updateDescription();
@@ -41,24 +37,10 @@ public class CirclePower extends AbstractPower {
     }
 
     @Override
-    public void onUseCard(AbstractCard card, UseCardAction action) {
-        if (this.amount > 0) {
-            this.flash();
-
-            AbstractCard tmp = card.makeSameInstanceOf();
-            AbstractDungeon.player.limbo.addToBottom(tmp);
-            tmp.current_x = card.current_x;
-            tmp.current_y = card.current_y;
-            tmp.target_x = (float)Settings.WIDTH / 2.0F - 300.0F * Settings.scale;
-            tmp.target_y = (float)Settings.HEIGHT / 2.0F;
-
-            tmp.purgeOnUse = true;
-            AbstractMonster target = action.target instanceof AbstractMonster ? (AbstractMonster) action.target : null;
-            AbstractDungeon.actionManager.addCardQueueItem(new CardQueueItem(tmp, target, card.energyOnUse, true), true);
-            --this.amount;
-            if (this.amount == 0) {
-                this.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, this.ID));
-            }
+    public void atEndOfTurn(boolean isPlayer) {
+        if (isPlayer) {
+            this.addToBot(new ApplyPowerAction(this.owner, this.owner, new VulnerablePower(this.owner, this.amount, false), this.amount));
+            this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, this.ID));
         }
     }
 
@@ -69,20 +51,5 @@ public class CirclePower extends AbstractPower {
         } else {
             this.description = "";
         }
-    }
-
-    @Override
-    public void atEndOfTurn(boolean isPlayer) {
-      if (isPlayer) {
-         this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, this.ID));
-      }
-   }
-
-    @Override
-    public void stackPower(int stackAmount) {
-        this.fontScale = 8.0F;
-        this.amount += stackAmount;
-        if (this.amount < 0) this.amount = 0;
-        updateDescription();
     }
 }

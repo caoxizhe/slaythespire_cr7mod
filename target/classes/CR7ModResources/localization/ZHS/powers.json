@@ -86,7 +86,7 @@
   "CR7Mod:CirclePower": {
     "NAME": "回旋镖",
     "DESCRIPTIONS": [
-      "本回合下 %d 张攻击牌打出 2 次。"
+      "本回合结束时获得 %d 层易伤。"
     ]
   }
   ,
