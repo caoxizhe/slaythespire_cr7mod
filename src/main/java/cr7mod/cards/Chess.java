@@ -37,10 +37,22 @@ public class Chess extends CustomCard {
 
     @Override
     public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        if (p.hand.size() <= 1) {
-            return false;
-        }
-        return true;
+		// 保留基类检查（例如沉睡、缴械等）
+		if (!super.canUse(p, m)) {
+			return false;
+		}
+
+		// 需要至少还有另一张手牌（hand 包含当前这张牌）
+		if (p.hand.size() <= 1) {
+			return false;
+		}
+
+		// 如果卡片已经被设为 freeToPlayOnce，则不检查能量
+		if (p.energy.energy < this.costForTurn && !this.freeToPlayOnce) {
+			return false;
+		}
+
+		return true;
     }
 
 	@Override
